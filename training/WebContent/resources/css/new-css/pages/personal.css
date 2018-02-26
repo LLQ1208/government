@@ -1,0 +1,111 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 0; }
+
+.personal .member-detail {
+  width: 100%;
+  height: 280px;
+  padding: 25px 36px;
+  box-sizing: border-box; }
+  .personal .member-detail .member-base {
+    width: 342px;
+    height: auto;
+    padding-left: 50px;
+    box-sizing: border-box; }
+    .personal .member-detail .member-base .head-input {
+      width: 100%;
+      height: 90px;
+      padding-left: 22px;
+      box-sizing: border-box;
+      position: relative;
+      margin-bottom: 10px; }
+      .personal .member-detail .member-base .head-input input {
+        width: 90px;
+        height: 90px;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        position: absolute;
+        top: 0;
+        left: 22px; }
+      .personal .member-detail .member-base .head-input img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%; }
+    .personal .member-detail .member-base .sex {
+      width: 100%;
+      height: 36px;
+      line-height: 36px;
+      font-size: 14px;
+      margin-bottom: 20px; }
+      .personal .member-detail .member-base .sex span {
+        color: #999;
+        margin-right: 30px; }
+      .personal .member-detail .member-base .sex label {
+        margin: 0 20px 0 4px;
+        color: #333; }
+    .personal .member-detail .member-base .birth-box {
+      width: 100%;
+      height: auto; }
+      .personal .member-detail .member-base .birth-box .form-datetime {
+        width: 50%;
+        height: 34px;
+        border: 1px solid #dfdfdf;
+        box-sizing: border-box;
+        padding-left: 10px;
+        box-sizing: border-box; }
+      .personal .member-detail .member-base .birth-box p {
+        height: 24px;
+        width: 100%;
+        font-size: 14px;
+        color: #999; }
+  .personal .member-detail .member-info {
+    width: 288px;
+    height: auto;
+    padding-top: 28px;
+    box-sizing: border-box; }
+    .personal .member-detail .member-info .member-info-box {
+      width: 100%;
+      height: auto;
+      margin-bottom: 14px; }
+      .personal .member-detail .member-info .member-info-box span {
+        width: 210px;
+        height: 34px;
+        line-height: 34px;
+        color: #333;
+        font-size: 14px; }
+      .personal .member-detail .member-info .member-info-box p {
+        width: 78px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        color: #999; }
+      .personal .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        width: 100%;
+        margin-bottom: 0; }
+        .personal .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn {
+          border-radius: 0;
+          border: 1px solid #dfdfdf;
+          padding: 6px 16px; }
+        .personal .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn-default:hover, .personal .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn-default:focus, .personal .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn-default:active, .personal .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn-default.active, .personal .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .open > .dropdown-toggle.btn-default {
+          background-color: inherit; }
+.personal .remark {
+  width: 450px;
+  height: 160px;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 75px; }
+  .personal .remark textarea {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none; }
+
+/*# sourceMappingURL=personal.css.map */

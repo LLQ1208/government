@@ -1,0 +1,540 @@
+body {
+  background: #fff;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.actions {
+  width: 100%;
+  height: auto;
+  .section-list {
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    position: relative;
+    .add-btn {
+      width: 96px;
+      height: 34px;
+      text-align: center;
+      line-height: 34px;
+      background: #fc340e;
+      font-size: 16px;
+      color: #fff;
+      position: absolute;
+      top: -48px;
+      right: 0;
+      cursor: pointer;
+    }
+    ul {
+      width: 100%;
+      height: auto;
+      li {
+        padding: 0 16px;
+        height: 64px;
+        line-height: 64px;
+        position: relative;
+        font-size: 16px;
+        color: #999;
+        cursor: pointer;
+        span {
+          width: 100%;
+          height: 2px;
+          background: #000;
+          position: absolute;
+          bottom: 12px;
+          left: 0;
+          transition: 0.3s all ease;
+          -webkit-transition: 0.3s all ease;
+          -moz-transition: 0.3s all ease;
+          -webkit-transform: scale(0);
+          -moz-transform: scale(0);
+          -ms-transform: scale(0);
+          transform: scale(0);
+        }
+      }
+      .active {
+        color: #000;
+        span {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+    }
+    .search-box {
+      width: 362px;
+      height: 36px;
+      border: 1px solid #cccccc;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative;
+      input {
+        width: 320px;
+        height: 34px;
+        line-height: 34px;
+        padding-left: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #333;
+      }
+      span {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 7px;
+        right: 8px;
+        background: url("../../../../resources/images/new-image/action/icon_search.png") no-repeat;
+      }
+    }
+  }
+  .lists {
+    width: 974px;
+    height: auto;
+    margin: 0 auto 36px;
+    ul {
+      width: 100%;
+      height: auto;
+      li {
+        width: 100%;
+        height: 46px;
+        line-height: 46px;
+        border-bottom: 1px solid #cccccc;
+        font-size: 14px;
+        color: #000;
+        .check-box {
+          width: 60px;
+          padding-left: 16px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          display: none;
+        }
+        .title-box {
+          width: 220px;
+          margin-right: 46px;
+          text-indent: 8px;
+          cursor: pointer;
+        }
+        .top-title-box {
+          width: 220px;
+          margin-right: 46px;
+          text-indent: 8px;
+        }
+        .type-box {
+          width: 90px;
+          text-indent: 8px;
+        }
+        .record-box {
+          width: 144px;
+          margin-right: 22px;
+          text-align: center;
+        }
+        .hide-box {
+          width: 132px;
+          margin-right: 40px;
+          text-align: center;
+        }
+        .last-box {
+          width: 150px;
+          text-align: center;
+        }
+      }
+    }
+    .head-list {
+      width: 100%;
+      height: 34px;
+      line-height: 34px;
+      background: #f5f5f5;
+      border-bottom: 1px solid #cccccc;
+      font-size: 14px;
+      color: #000;
+      .check-box {
+        width: 60px;
+        padding-left: 16px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: none;
+      }
+      .title-box {
+        width: 220px;
+        margin-right: 46px;
+        text-indent: 8px;
+      }
+      .top-title-box {
+        width: 220px;
+        margin-right: 46px;
+        text-indent: 8px;
+      }
+      .type-box {
+        width: 90px;
+        text-indent: 8px;
+      }
+      .record-box {
+        width: 144px;
+        margin-right: 22px;
+        text-align: center;
+      }
+      .hide-box {
+        width: 132px;
+        margin-right: 40px;
+        text-align: center;
+      }
+      .last-box {
+        width: 150px;
+        text-align: center;
+      }
+    }
+  }
+  .page-box {
+    width: 130px;
+    height: 44px;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    margin: 0 auto;
+    .pages {
+      width: 90px;
+      height: 44px;
+      text-align: center;
+      line-height: 44px;
+    }
+    .glyphicon {
+      margin-top: 14px;
+      cursor: pointer;
+    }
+  }
+}
+
+.add-section {
+  width: 428px;
+  min-height: 230px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -214px;
+  margin-top: -110px;
+  -webkit-box-shadow: 0 0 20px #666;
+  -moz-box-shadow: 0 0 20px #666;
+  -ms-box-shadow: 0 0 20px #666;
+  box-shadow: 0 0 20px #666;
+  display: none;
+  padding-bottom: 24px;
+  .section-title {
+    width: 100%;
+    height: 36px;
+    background: #eeeeee;
+    padding: 0 12px 0 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    p {
+      width: 200px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 16px;
+      color: #333;
+    }
+    span {
+      width: 16px;
+      height: 16px;
+      background: url("../../../../resources/images/new-image/training/icon_close.png") no-repeat;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+  .section-content {
+    width: 100%;
+    height: auto;
+    padding: 24px 16px 0;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    input {
+      width: 396px;
+      height: 60px;
+      padding: 0 16px;
+      border: 1px solid #CCCCCC;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    .mark-title {
+      font-size: 14px;
+      color: #333;
+    }
+    .btn-box {
+      width: 100%;
+      height: auto;
+      margin-top: 6px;
+      .btn-block  {
+        width: 96px;
+        height: 34px;
+        text-align: center;
+        line-height: 34px;
+        display: block;
+        font-size: 16px;
+        margin-left: 26px;
+        color: #fff;
+        cursor: pointer;
+      }
+      .section-cancel-btn {
+        background: #ccc;
+      }
+      .section-save-btn {
+        background: #e83a1b;
+      }
+    }
+
+  }
+  .delete-btn {
+    width: 98px;
+    height: 36px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    color: #e83a1b;
+    border: 1px solid #e83a1b;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 22px;
+    right: 16px;
+    cursor: pointer;
+    display: none;
+  }
+  .edit-content{
+    padding: 70px 16px 0;
+    .delete-btn{
+      display: block;
+    }
+    input{
+      height: 34px;
+    }
+  }
+  .red {
+    input {
+      border-color: #e83a1b;
+    }
+    .mark-title {
+      color: #e83a1b;
+    }
+  }
+
+}
+.warm-up{
+  .section-content{
+    padding: 16px 16px 0;
+    input{
+      height: 34px;
+    }
+    textarea{
+      width:100%;
+      height: 40px;
+      border: 1px solid #ccc;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      resize: none;
+      margin-top: 10px;
+    }
+    strong{
+      font-weight: normal;
+    }
+    .btn-box{
+      .delete-btn{
+        margin-left: 0;
+        color: #e83a1b;
+        position: static;
+        right: 0;
+        top: 0;
+        margin-top: 5px;
+        display: none;
+      }
+    }
+  }
+  .edit-content{
+    .btn-box {
+      .delete-btn {
+        display: block;
+      }
+    }
+  }
+}
+.metcon{
+  .section-content{
+    padding: 16px 16px 0;
+    input{
+      height: 34px;
+    }
+    textarea{
+      width:100%;
+      height: 40px;
+      border: 1px solid #ccc;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      resize: none;
+      margin-top: 10px;
+    }
+    .little-title{
+      font-weight: normal;
+    }
+    .record-type{
+      width:100%;
+      height:auto;
+      margin-top: 16px;
+      .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+        width:100%;
+      }
+    }
+    .rx{
+      width: 100%;
+      margin-top: 20px;
+      span{
+        width:80px;
+      }
+      div{
+        label{
+          margin-right: 8px;
+        }
+      }
+    }
+    .btn-box{
+      .delete-btn{
+        margin-left: 0;
+        color: #e83a1b;
+        position: static;
+        right: 0;
+        top: 0;
+        display: none;
+      }
+    }
+  }
+  .edit-content{
+    .btn-box{
+      .delete-btn{
+        display: block;
+      }
+    }
+  }
+}
+.view-section{
+  width: 428px;
+  min-height: 180px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -214px;
+  margin-top: -110px;
+  -webkit-box-shadow: 0 0 20px #666;
+  -moz-box-shadow: 0 0 20px #666;
+  -ms-box-shadow: 0 0 20px #666;
+  box-shadow: 0 0 20px #666;
+  display: none;
+  padding-bottom: 24px;
+  .section-title {
+    width: 100%;
+    height: 36px;
+    background: #eeeeee;
+    padding: 0 12px 0 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    p {
+      width: 200px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 16px;
+      color: #333;
+    }
+    span {
+      width: 16px;
+      height: 16px;
+      background: url("../../../../resources/images/new-image/training/icon_close.png") no-repeat;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+  .view {
+    width: 100%;
+    height: auto;
+    padding: 12px 16px 0;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    .view-title{
+      width:100%;
+      height: auto;
+      line-height: 36px;
+      color: #333;
+      font-size: 16px;
+    }
+    .mark-title{
+      font-size: 14px;
+      color: #e83a1b;
+    }
+    .view-desc,.view-record{
+      width:100%;
+      height: auto;
+      line-height: 24px;
+      color: #333;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .little-title{
+      font-size: 14px;
+      color: #333;
+    }
+    .view-rx{
+      width: 100%;
+      height: auto;
+      line-height: 30px;
+      font-size: 16px;
+      color: #333;
+      margin-top: 10px;
+    }
+    .btn-box {
+      width: 100%;
+      height: auto;
+      margin-top: 6px;
+      .btn-block {
+        width: 96px;
+        height: 34px;
+        text-align: center;
+        line-height: 34px;
+        display: block;
+        font-size: 16px;
+        margin-left: 26px;
+        color: #fff;
+        cursor: pointer;
+      }
+      .section-cancel-btn {
+        background: #ccc;
+      }
+    }
+  }
+}

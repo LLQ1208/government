@@ -1,0 +1,310 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+.member-add {
+  width: 100%;
+  height: auto; }
+  .member-add .member-detail {
+    width: 100%;
+    height: 374px;
+    padding: 25px 36px;
+    box-sizing: border-box; }
+    .member-add .member-detail .member-base {
+      width: 342px;
+      height: auto; }
+      .member-add .member-detail .member-base .head-input {
+        width: 100%;
+        height: 120px;
+        padding-left: 22px;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 40px; }
+        .member-add .member-detail .member-base .head-input input {
+          width: 120px;
+          height: 120px;
+          opacity: 0;
+          filter: alpha(opacity=0);
+          position: absolute;
+          top: 0;
+          left: 22px; }
+        .member-add .member-detail .member-base .head-input img {
+          width: 120px;
+          height: 120px;
+          border-radius: 50%; }
+      .member-add .member-detail .member-base .sex {
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        font-size: 14px;
+        margin-bottom: 36px; }
+        .member-add .member-detail .member-base .sex span {
+          color: #999;
+          margin-right: 30px; }
+        .member-add .member-detail .member-base .sex label {
+          margin: 0 20px 0 4px;
+          color: #333; }
+      .member-add .member-detail .member-base .birth-box {
+        width: 100%;
+        height: auto; }
+        .member-add .member-detail .member-base .birth-box .form-datetime {
+          width: 50%;
+          height: 34px;
+          border: 1px solid #dfdfdf;
+          box-sizing: border-box;
+          padding-left: 10px;
+          box-sizing: border-box; }
+        .member-add .member-detail .member-base .birth-box p {
+          height: 24px;
+          width: 100%;
+          font-size: 14px;
+          color: #999; }
+    .member-add .member-detail .member-info {
+      width: 288px;
+      height: auto; }
+      .member-add .member-detail .member-info .member-info-box {
+        width: 100%;
+        height: auto;
+        margin-bottom: 14px; }
+        .member-add .member-detail .member-info .member-info-box input {
+          width: 100%;
+          height: 34px;
+          line-height: 34px;
+          padding: 0 16px;
+          color: #333;
+          font-size: 14px;
+          border: 1px solid #dfdfdf;
+          box-sizing: border-box; }
+        .member-add .member-detail .member-info .member-info-box p {
+          width: 100%;
+          height: 28px;
+          line-height: 28px;
+          font-size: 14px;
+          color: #999; }
+        .member-add .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+          width: 100%;
+          margin-bottom: 0; }
+          .member-add .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn {
+            border-radius: 0;
+            border: 1px solid #dfdfdf;
+            padding: 6px 16px; }
+          .member-add .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn-default:hover, .member-add .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn-default:focus, .member-add .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn-default:active, .member-add .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn-default.active, .member-add .member-detail .member-info .member-info-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .open > .dropdown-toggle.btn-default {
+            background-color: inherit; }
+  .member-add .card-type {
+    width: 100%;
+    /*min-height: 526px;*/
+    padding-top: 59px;
+    box-sizing: border-box;
+    background: #eeeeee; }
+    .member-add .card-type h4 {
+      width: 100%;
+      height: 46px;
+      line-height: 46px;
+      font-size: 20px;
+      color: #000;
+      font-weight: bold; }
+    .member-add .card-type .card-type-list {
+      width: 100%;
+      height: auto;
+      padding: 36px;
+      box-sizing: border-box;
+      background: #fff; }
+      .member-add .card-type .card-type-list .head-top {
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        font-size: 16px;
+        color: #000;
+        border: 1px solid #dfdfdf;
+        box-sizing: border-box;
+        border-radius: 8px 8px 0 0;
+        border-bottom: none;
+        background: #eee; }
+        .member-add .card-type .card-type-list .head-top .class-type-block {
+          text-indent: 50px; }
+      .member-add .card-type .card-type-list .card-type-block {
+        width: 188px;
+        text-indent: 26px; }
+      .member-add .card-type .card-type-list .class-type-block {
+        width: 760px; }
+      .member-add .card-type .card-type-list ul {
+        width: 100%;
+        height: auto;
+        padding: 6px 0;
+        border: 1px solid #dfdfdf;
+        border-top: none;
+        box-sizing: border-box; }
+        .member-add .card-type .card-type-list ul li {
+          width: 100%;
+          min-height: 48px;
+          line-height: 48px;
+          font-size: 14px;
+          color: #333; }
+          .member-add .card-type .card-type-list ul li .iradio_flat-red {
+            margin-right: 4px; }
+          .member-add .card-type .card-type-list ul li .class-type-block {
+            line-height: 30px;
+            padding-top: 8px;
+            box-sizing: border-box; }
+  .member-add .quick-add {
+    width: 100%;
+    height: auto;
+    padding-top: 59px;
+    box-sizing: border-box;
+    background: #eeeeee; }
+    .member-add .quick-add h4 {
+      width: 100%;
+      height: 46px;
+      line-height: 46px;
+      font-size: 20px;
+      color: #000;
+      font-weight: bold; }
+    .member-add .quick-add .quick-add-box {
+      width: 100%;
+      height: auto;
+      background: #fff;
+      padding: 36px;
+      box-sizing: border-box; }
+      .member-add .quick-add .quick-add-box .quick-add-custom {
+        width: 100%;
+        height: auto; }
+        .member-add .quick-add .quick-add-box .quick-add-custom .custom-type {
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          font-size: 14px;
+          color: #333;
+          margin-bottom: 50px; }
+          .member-add .quick-add .quick-add-box .quick-add-custom .custom-type label {
+            margin: 0 12px 0 4px; }
+        .member-add .quick-add .quick-add-box .quick-add-custom .custom-info {
+          width: 100%;
+          height: auto; }
+          .member-add .quick-add .quick-add-box .quick-add-custom .custom-info .custom-info-block {
+            width: 180px;
+            height: auto;
+            margin-right: 72px;
+            margin-bottom: 10px;}
+            .member-add .quick-add .quick-add-box .quick-add-custom .custom-info .custom-info-block input {
+              width: 100%;
+              height: 34px;
+              line-height: 34px;
+              border: 1px solid #dfdfdf;
+              box-sizing: border-box;
+              padding: 0 10px;
+              font-size: 14px;
+              text-align: center; }
+            .member-add .quick-add .quick-add-box .quick-add-custom .custom-info .custom-info-block p {
+              width: 100%;
+              height: 24px;
+              line-height: 24px;
+              font-size: 14px;
+              color: #999; }
+          .member-add .quick-add .quick-add-box .quick-add-custom .custom-info .count-num-block, .member-add .quick-add .quick-add-box .quick-add-custom .custom-info .expire-block {
+            width: 100px; }
+        .member-add .quick-add .quick-add-box .quick-add-custom .custom-info-time {
+          display: none; }
+        .member-add .quick-add .quick-add-box .quick-add-custom .order-class-block {
+          width: 100%;
+          height: auto;
+          margin-top: 20px; }
+          .member-add .quick-add .quick-add-box .quick-add-custom .order-class-block .class-block {
+            width: 100%;
+            height: auto; }
+            .member-add .quick-add .quick-add-box .quick-add-custom .order-class-block .class-block .class-one {
+              height: 34px;
+              line-height: 34px;
+              margin-right: 16px;
+              font-size: 14px;
+              color: #333; }
+              .member-add .quick-add .quick-add-box .quick-add-custom .order-class-block .class-block .class-one label {
+                margin-left: 4px;
+                font-weight: normal; }
+          .member-add .quick-add .quick-add-box .quick-add-custom .order-class-block p {
+            width: 100%;
+            height: 24px;
+            line-height: 24px;
+            font-size: 14px;
+            color: #999; }
+      .member-add .quick-add .quick-add-box .quick-add-card {
+        width: 100%;
+        height: auto;
+        display: none; }
+        .member-add .quick-add .quick-add-box .quick-add-card .card-info {
+          width: 100%;
+          height: auto; }
+          .member-add .quick-add .quick-add-box .quick-add-card .card-info .card-info-block {
+            width: 180px;
+            height: auto;
+            margin-right: 72px; }
+            .member-add .quick-add .quick-add-box .quick-add-card .card-info .card-info-block input {
+              width: 100%;
+              height: 34px;
+              line-height: 34px;
+              border: 1px solid #dfdfdf;
+              box-sizing: border-box;
+              padding: 0 10px;
+              font-size: 14px;
+              text-align: center; }
+            .member-add .quick-add .quick-add-box .quick-add-card .card-info .card-info-block p {
+              width: 100%;
+              height: 24px;
+              line-height: 24px;
+              font-size: 14px;
+              color: #999; }
+          .member-add .quick-add .quick-add-box .quick-add-card .card-info .card-price {
+            width: 100px; }
+.btns-div {
+  width: 100%;
+  height: 134px;
+  background: #eeeeee;
+  padding-top: 68px;
+  padding-left: 334px;
+  box-sizing: border-box; }
+.btns-div a {
+  width: 96px;
+  height: 34px;
+  margin-right: 24px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  color: #fff;
+}
+.btns-div button {
+  width: 96px;
+  height: 34px;
+  margin-right: 24px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  color: #fff;
+}
+ .btns-div .cancel-btn {
+  background: #999;
+}
+.btns-div .save-btn {
+  background: #ff350e;
+}
+.custom-info .select-detail {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px; }
+.order-class-block .select-title {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 12px; }
+.order-class-block .select-title span {
+  color: #999;
+  font-size: 14px;
+  margin-left: 12px; }
+
+.order-class-block.select-type {
+  width: 100%;
+  height: 34px; }
+.order-class-block.select-type .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 98px; }
+/*# sourceMappingURL=member-add.css.map */

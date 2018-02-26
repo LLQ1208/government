@@ -1,0 +1,205 @@
+body, html {
+  background: #eeeeee; }
+
+.box {
+  width: 1310px;
+  margin: 0 auto; }
+  .box .leftBar {
+    width: 201px;
+    height: 100%;
+    background: #fff; }
+    .box .leftBar .logo {
+      width: 188px;
+      height: 72px;
+      margin: 0 auto;
+      border-bottom: 1px solid #eee;
+      background: url("../../../images/new-image/index/logo_02.png");
+      -webkit-background-size: cover;
+      background-size: cover; }
+    .box .leftBar .user {
+      width: 201px;
+      height: 72px;
+      border-bottom: 1px solid #eee;
+      display: flex; }
+      .box .leftBar .user .userHead {
+        width: 42px;
+        height: 42px;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        margin: 16px 0 0 16px;
+        background: url("../../../images/new-image/index/headIcon_03.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        display: block; }
+      .box .leftBar .user .userName {
+        font-size: 16px;
+        color: #000;
+        width: 108px;
+        margin-left: 7px;
+        margin-top: 30px; }
+      .box .leftBar .user .downIcon {
+        display: block;
+        width: 12px;
+        height: 7px;
+        background: url("../../../images/new-image/index/down_03.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-top: 36px; }
+  .box .list {
+    width: 100%;
+    margin-top: 27px; }
+    .box .list .listCommon {
+      width: 100%; }
+      .box .list .listCommon .listCommonTitle {
+        cursor: pointer;
+        height: 51px;
+        width: 100%; }
+        .box .list .listCommon .listCommonTitle .listCommonIcon {
+          display: block;
+          width: 21px;
+          height: 20px;
+          background: url("../../../images/new-image/index/WOD_03.png");
+          -webkit-background-size: cover;
+          background-size: cover;
+          margin-left: 19px;
+          margin-top: 16px; }
+        .box .list .listCommon .listCommonTitle .memberIcon {
+          background: url("../../../images/new-image/index/member_07.png");
+          -webkit-background-size: cover;
+          background-size: cover; }
+        .box .list .listCommon .listCommonTitle .orderIcon {
+          background: url("../../../images/new-image/index/order.png");
+          -webkit-background-size: cover;
+          background-size: cover; }
+        .box .list .listCommon .listCommonTitle .classIcon {
+          background: url("../../../images/new-image/index/class.png");
+          -webkit-background-size: cover;
+          background-size: cover; }
+        .box .list .listCommon .listCommonTitle .oprationIcon {
+          background: url("../../../images/new-image/index/operate_16.png");
+          -webkit-background-size: cover;
+          background-size: cover; }
+        .box .list .listCommon .listCommonTitle .emailIcon {
+          background: url("../../../images/new-image/index/email_20.png");
+          -webkit-background-size: cover;
+          background-size: cover; }
+        .box .list .listCommon .listCommonTitle .priceIcon {
+          background: url("../../../images/new-image/index/price_23.png");
+          -webkit-background-size: cover;
+          background-size: cover; }
+        .box .list .listCommon .listCommonTitle .setIcon {
+          background: url("../../../images/new-image/index/set_26.png");
+          -webkit-background-size: cover;
+          background-size: cover; }
+        .box .list .listCommon .listCommonTitle .titleName {
+          width: 126px;
+          margin-left: 7px;
+          font-size: 16px;
+          color: #000;
+          margin-top: 16px; }
+        .box .list .listCommon .listCommonTitle .commonDownIcon {
+          width: 12px;
+          height: 7px;
+          display: block;
+          background: url("../../../images/new-image/index/down_03.png");
+          -webkit-background-size: cover;
+          background-size: cover;
+          margin-top: 24px; }
+      .box .list .listCommon .listCommonTitle.active .commonDownIcon {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg); }
+      .box .list .listCommon .listCommonDetail {
+        width: 100%;
+        display: none; }
+        .box .list .listCommon .listCommonDetail .changeSrc {
+          width: 100%;
+          height: 40px;
+          line-height: 40px;
+          color: #000;
+          font-size: 14px;
+          text-indent: 47px;
+          cursor: pointer; }
+        .box .list .listCommon .listCommonDetail .changeSrc.active {
+          color: #ff350e; }
+  .box .rightContent {
+    width: 1070px;
+    height: 100%; }
+
+
+.mask-box {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.26);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none; }
+  .mask-box .remark-box {
+    width: 428px;
+    height: 210px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -214px;
+    margin-top: -110px;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    -moz-box-shadow: 0 0 20px #ccc;
+    -o-box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ccc; }
+    .mask-box .remark-box .box-title {
+      width: 100%;
+      height: 36px;
+      background: #eeeeee;
+      padding: 0 12px 0 16px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box; }
+      .mask-box .remark-box .box-title p {
+        width: 200px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 16px;
+        color: #333; }
+      .mask-box .remark-box .box-title span {
+        width: 16px;
+        height: 16px;
+        background: url("../../../images/new-image/training/icon_close.png") no-repeat;
+        margin-top: 10px;
+        cursor: pointer; }
+    .mask-box .remark-box .box-content {
+      width: 100%;
+      height: auto;
+      padding: 24px 16px 0;
+      -webkit-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .mask-box .remark-box .box-content textarea {
+        width: 396px;
+        height: 60px;
+        border: 1px solid #CCCCCC;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        resize: none; }
+      .mask-box .remark-box .box-content .sure-btn {
+        width: 96px;
+        height: 34px;
+        text-align: center;
+        line-height: 34px;
+        background: #e83a1b;
+        font-size: 16px;
+        color: #fff;
+        margin: 0 auto;
+        display: block; }
+
+
+/*# sourceMappingURL=index.css.map */

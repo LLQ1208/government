@@ -1,0 +1,137 @@
+/*导航*/
+.editTop{width: 100%; min-width: 1257px; height: 60px; border-bottom: 1px solid #eeeeee; background: url(../images/editBg.jpg) no-repeat; background-size: cover; -ms-behavior: url(css/backgroundsize.min.htc); behavior: url(css/backgroundsize.min.htc);}
+.editTop .header{width: 100%;  height: 52px; line-height: 50px;}
+.editTop .littleLogo{width: 143px; height: 39px; margin-left: 25px; margin-top: 6px;}
+.littleLogo img{width: 100%; height: 100%;}
+.header .nav{min-width: 200px; height: 50px;}
+.header .nav li{float: left;}
+.nav li a:hover{background: none;}
+/*内容*/
+.content{width: 600px; height: auto; margin: 0 auto; margin-top:30px;}
+.content .photo{margin: 10px auto; width: 96px; height: 96px; border-radius: 50%; overflow: hidden; background: url(../images/upload.png) no-repeat;}
+.content .photo input{width: 96px; height: 96px; border-radius: 50%; font-size: 20px; opacity: 0; filter:alpha(opacity=0);}
+.content .photo img{width: 100%; height: 100%;}
+.nature{width: 100%; height: 26px; margin: 4px 0 12px;}
+.nature .tip{width: 70px; height: 26px; line-height: 26px; margin-left: 248px;}
+.nature .selects{width: 92px; border: 1px solid #cdcdcd; border-radius: 4px; overflow: hidden;}
+.nature .selects li{width: 50%; float: left; line-height: 26px; text-align: center; color: #999; cursor: pointer;}
+.nature .selects li.cur{background-color: #ff604f; color: #fff;}
+.detail{width: 100%; height: auto;}
+.detail .subentry{width: 100%; min-height: 40px; margin-bottom: 15px;}
+.detail .subentry .item{width: 95px; padding-right: 15px; text-align: right; height: 40px; line-height: 40px; }
+.detail .subentry .srk{color: #999; border: 0; outline: none; width: 300px; height: 40px; border: 1px solid #e2e2e2; border-radius: 4px; line-height: 40px; text-indent: 16px;}
+.detail .subentry .unit{width: 45px; height: 40px; line-height: 40px; text-align: center;}
+.detail .subentry .cards{width: 300px; height: auto;}
+.detail .subentry .cards li{float: left; width: 106px; height: 46px; margin-right: 15px; cursor: pointer;}
+.detail .subentry .cards .monthCard{background-image: url(../images/monthCard.png); background-repeat: no-repeat; background-position: 0 0;}
+.detail .subentry .cards .timeCard{background-image: url(../images/timeCard.png); background-repeat: no-repeat; background-position: 0 0;}
+.detail .subentry .cards li.cur{background-position: 0 -74px;}
+/* 日历小图标替换图标字体的样式和下拉菜单去除小图标 */
+.form_datetime{ position:relative; width:140px; height: 40px;}
+.form_datetime input{width:100%; height:40px; line-height:40px; padding:0 10px; border:1px solid #ccc; box-sizing:border-box;}
+.form_datetime .add-on{	position:absolute;	right:5px;	top:10px;	width:14px;	height:14px;	}
+.form_datetime .add-on .icon-th{display:block;	width:14px;	height:14px; margin:0;}
+[class*=" datetimepicker-dropdown"]{margin:12px 0 0 6px;}
+[class*=" datetimepicker-dropdown"]::before{ right:6px; top:-7px;}
+[class*=" datetimepicker-dropdown"]::after{ right:7px; top:-6px;}
+[class^="icon-"], [class*=" icon-"] {background-image: url(../images/glyphicons-halflings.png); background-position: 14px 14px; background-repeat: no-repeat; isplay: inline-block; height: 14px; line-height: 14px; margin-top: 1px; vertical-align: text-top; width: 14px;}
+.bootstrap-select.btn-group .dropdown-menu li a:hover i.check-mark,
+.bootstrap-select.btn-group .dropdown-menu li.selected i.check-mark{background-image:url(../../images/bootstrap/glyphicons-halflings.png);}
+.icon-arrow-left {	background-position: -240px -96px;	}
+.icon-arrow-right {	background-position: -264px -96px;	}
+.icon-ok{	background-position: -288px 0px;	}
+.form_datetime .add-on .icon-th { background-position: -240px 0;}
+.datetimepicker{ margin-left:8px;}
+.glyphicon-ok::before{ content:"";}
+/*日历结束*/
+.subentry .dashs{width: 20px; text-align: center; height: 40px; line-height: 40px;}
+.detail .tips{font-size: 12px; color: #f19149; margin-left: 95px; line-height: 28px; margin-top: -15px;}
+/* .cardTime{display: none;} */
+.cardTime .num{width: 160px; height: 40px; border: 1px solid #e2e2e2; border-radius: 4px; overflow: hidden;}
+.cardTime .num span{width: 39px; line-height: 40px; text-align: center; font-size: 20px; color: #cdcdcd; cursor: pointer;}
+.cardTime .num input{border: 0; outline: none; border-left:1px solid #e2e2e2; border-right: 1px solid #e2e2e2; width: 80px; line-height: 40px; font-size: 16px; text-align: center;}
+.content .btns .delete {
+    border: 1px solid #FF4C39;
+    border-radius: 4px;
+    color: #FF4C39;
+    cursor: pointer;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    width: 64px;
+    margin-right: 10px;
+}
+.content .item .coach-item {
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 20px;
+    text-indent: 20px;
+    width: 300px;
+}
+.content .item .member-item {
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 20px;
+    text-indent: 20px;
+    width: 300px;
+}
+.content .item .member-item-util{
+	margin-top:10px;
+}
+.content .cards .monthCard {
+    background-image: url("../images/monthCard.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.content .cards li {
+    cursor: pointer;
+    float: left;
+    height: 46px;
+    margin-right: 15px;
+    width: 106px;
+}
+.content .cards li.cur {
+    background-position: 0 -74px;
+}
+.content .cards .timeCard {
+    background-image: url("../images/timeCard.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.content .dashs {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 20px;
+}
+.content .sex{
+	margin-right:82px;
+}
+.content .tip{
+	margin-top:5px;color:#FF5945;
+}
+.training-time{
+	border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 20px;
+    text-indent: 20px;
+    width: 100px;
+}
+.tip-red{
+	color:#ff0000;
+}
+
+.content-box {
+     width: 1324px;
+     min-height: 768px;
+     margin: 0 auto;
+ }

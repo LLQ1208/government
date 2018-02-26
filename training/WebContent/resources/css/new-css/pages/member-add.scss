@@ -1,0 +1,305 @@
+.member-add{
+  width: 100%;
+  height:auto;
+  .member-detail{
+    width:100%;
+    height: 374px;
+    padding: 25px 36px;
+    box-sizing: border-box;
+    .member-base{
+      width: 342px;
+      height: auto;
+      .head-input{
+        width: 100%;
+        height: 120px;
+        padding-left: 22px;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 40px;
+        input{
+          width: 120px;
+          height: 120px;
+          opacity: 0;
+          filter: alpha(opacity=0);
+          position: absolute;
+          top:0;
+          left:22px;
+        }
+        img{
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+        }
+      }
+      .sex{
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        font-size: 14px;
+        margin-bottom: 36px;
+        span{
+          color: #999;
+          margin-right: 30px;
+        }
+        label{
+          margin: 0 20px 0 4px;
+          color: #333;
+        }
+      }
+      .birth-box{
+        width: 100%;
+        height: auto;
+        .form-datetime{
+          width: 50%;
+          height: 34px;
+          border: 1px solid #dfdfdf;
+          box-sizing: border-box;
+          padding-left: 10px;
+          box-sizing: border-box;
+        }
+
+        p{
+          height: 24px;
+          width: 100%;
+          font-size: 14px;
+          color: #999;
+        }
+      }
+    }
+    .member-info{
+      width: 288px;
+      height: auto;
+      .member-info-box{
+        width: 100%;
+        height: auto;
+        margin-bottom: 14px;
+        input{
+          width: 100%;
+          height: 34px;
+          line-height: 34px;
+          padding: 0 16px;
+          color: #333;
+          font-size: 14px;
+          border: 1px solid #dfdfdf;
+          box-sizing: border-box;
+        }
+        p{
+          width: 100%;
+          height: 28px;
+          line-height: 28px;
+          font-size: 14px;
+          color: #999;
+        }
+        .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+          width: 100%;
+          margin-bottom: 0;
+          .btn{
+            border-radius: 0;
+            border: 1px solid #dfdfdf;
+            padding: 6px 16px;
+          }
+          .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+            background-color: inherit;
+          }
+        }
+      }
+    }
+  }
+  .card-type{
+    width: 100%;
+    min-height: 526px;
+    padding-top: 59px;
+    box-sizing: border-box;
+    background: #eeeeee;
+    h4{
+      width: 100%;
+      height: 46px;
+      line-height: 46px;
+      font-size: 20px;
+      color: #000;
+      font-weight: bold;
+    }
+    .card-type-list{
+      width: 100%;
+      height: auto;
+      padding: 36px;
+      box-sizing: border-box;
+      background: #fff;
+      .head-top{
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        font-size: 16px;
+        color: #000;
+        border: 1px solid #dfdfdf;
+        box-sizing: border-box;
+        border-radius: 8px 8px 0 0;
+        border-bottom: none;
+        background: #eee;
+        .class-type-block{
+          text-indent: 50px;
+        }
+      }
+      .card-type-block{
+        width: 188px;
+        text-indent: 26px;
+      }
+      .class-type-block{
+        width: 760px;
+      }
+      ul{
+        width: 100%;
+        height: auto;
+        padding: 6px 0;
+        border: 1px solid #dfdfdf;
+        border-top: none;
+        box-sizing: border-box;
+        li{
+          width: 100%;
+          min-height: 48px;
+          line-height: 48px;
+          font-size: 14px;
+          color: #333;
+          .iradio_flat-red{
+            margin-right: 4px;
+          }
+          .class-type-block{
+            line-height: 30px;
+            padding-top: 8px;
+            box-sizing: border-box;
+          }
+        }
+      }
+    }
+  }
+  .quick-add{
+    width: 100%;
+    height: auto;
+    padding-top: 59px;
+    box-sizing: border-box;
+    background: #eeeeee;
+    h4{
+      width: 100%;
+      height: 46px;
+      line-height: 46px;
+      font-size: 20px;
+      color: #000;
+      font-weight: bold;
+    }
+    .quick-add-box{
+      width: 100%;
+      height: auto;
+      background: #fff;
+      padding: 36px;
+      box-sizing: border-box;
+      .quick-add-custom{
+        width: 100%;
+        height: auto;
+        .custom-type{
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          font-size: 14px;
+          color: #333;
+          margin-bottom: 50px;
+          label{
+            margin: 0 12px 0 4px;
+          }
+        }
+        .custom-info{
+          width: 100%;
+          height: auto;
+          .custom-info-block{
+            width: 180px;
+            height: auto;
+            margin-right: 72px;
+            input{
+              width: 100%;
+              height: 34px;
+              line-height: 34px;
+              border:1px solid #dfdfdf;
+              box-sizing: border-box;
+              padding: 0 10px;
+              font-size: 14px;
+              text-align: center;
+            }
+            p{
+              width: 100%;
+              height: 24px;
+              line-height: 24px;
+              font-size: 14px;
+              color: #999;
+            }
+          }
+          .count-num-block,.expire-block{
+            width: 100px;
+          }
+        }
+        .custom-info-time{
+          display: none;
+        }
+        .order-class-block{
+          width: 100%;
+          height:auto;
+          margin-top: 20px;
+          .class-block{
+            width: 100%;
+            height: auto;
+            .class-one{
+              height: 34px;
+              line-height: 34px;
+              margin-right: 16px;
+              font-size: 14px;
+              color: #333;
+              label{
+                margin-left: 4px;
+                font-weight: normal;
+              }
+            }
+          }
+          p{
+            width:100%;
+            height: 24px;
+            line-height:24px;
+            font-size: 14px;
+            color: #999;
+          }
+        }
+      }
+      .quick-add-card{
+        width: 100%;
+        height: auto;
+        display: none;
+        .card-info{
+          width: 100%;
+          height: auto;
+          .card-info-block{
+            width: 180px;
+            height: auto;
+            margin-right: 72px;
+            input{
+              width: 100%;
+              height: 34px;
+              line-height: 34px;
+              border:1px solid #dfdfdf;
+              box-sizing: border-box;
+              padding: 0 10px;
+              font-size: 14px;
+              text-align: center;
+            }
+            p{
+              width: 100%;
+              height: 24px;
+              line-height: 24px;
+              font-size: 14px;
+              color: #999;
+            }
+          }
+          .card-price{
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+}

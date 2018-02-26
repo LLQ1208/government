@@ -1,0 +1,326 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+p {
+  margin-bottom: 0; }
+
+.member-list .filter-line {
+  width: 100%;
+  height: 72px;
+  padding: 19px 12px;
+  box-sizing: border-box;
+  background: #fff; }
+  .member-list .filter-line .search-box {
+    width: 456px;
+    height: 34px;
+    border: 1px solid #dddddd;
+    padding-left: 34px;
+    background: #fffffd;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 116px; }
+    .member-list .filter-line .search-box .icon-search {
+      width: 20px;
+      height: 20px;
+      background: url("../../../../resources/images/new-image/action/icon_search.png") no-repeat;
+      background-size: 100%;
+      position: absolute;
+      top: 5px;
+      left: 9px; }
+    .member-list .filter-line .search-box input {
+      width: 324px;
+      height: 100%;
+      padding: 8px 0;
+      box-sizing: border-box;
+      line-height: 16px;
+      color: #333;
+      font-size: 14px; }
+    .member-list .filter-line .search-box .btn-search {
+      width: 96px;
+      height: 34px;
+      background: #ccc;
+      text-align: center;
+      line-height: 34px;
+      font-size: 16px;
+      color: #fff;
+      margin-top: -1px;
+      cursor: pointer; }
+  .member-list .filter-line .trains {
+    width: 240px;
+    height: auto;
+    margin-right: 120px; }
+    .member-list .filter-line .trains .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+      width: 100%; }
+      .member-list .filter-line .trains .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn {
+        border-radius: 0; }
+  .member-list .filter-line .add-member {
+    width: 96px;
+    height: 34px;
+    background: #ff350e;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer; }
+  .member-list .filter-line .add-member:hover {
+    text-decoration: none; }
+.member-list .list-box {
+  border-top: 25px solid #eee;
+  box-sizing: border-box;
+  padding: 14px 36px; }
+  .member-list .list-box .list-filter {
+    width: 100%;
+    height: 36px; }
+    .member-list .list-box .list-filter .cards {
+      width: 120px;
+      height: 24px;
+      margin-top: 6px;
+      border: 1px solid #ff350e;
+      box-sizing: border-box;
+      font-size: 14px;
+      text-align: center;
+      line-height: 22px;
+      color: #ff350e;
+      margin-right: 60px; }
+      .member-list .list-box .list-filter .cards li {
+        width: 50%;
+        cursor: pointer; }
+      .member-list .list-box .list-filter .cards .current {
+        background: #ff350e;
+        color: #fff; }
+    .member-list .list-box .list-filter .card-status {
+      width: 540px;
+      height: 36px; }
+      .member-list .list-box .list-filter .card-status li {
+        padding: 0 15px;
+        height: 36px;
+        margin-right: 20px;
+        line-height: 36px;
+        position: relative;
+        color: #999999;
+        font-size: 16px;
+        cursor: pointer; }
+        .member-list .list-box .list-filter .card-status li span {
+          width: 100%;
+          height: 2px;
+          background: #000;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transform: scale(0);
+          transition: 0.3s all ease; }
+      .member-list .list-box .list-filter .card-status .active {
+        color: #000; }
+        .member-list .list-box .list-filter .card-status .active span {
+          transform: scale(1); }
+  .member-list .list-box .list-block {
+    width: 100%;
+    height: 979px;
+    overflow-x: auto; }
+    .member-list .list-box .list-block .head-table {
+      width: 2396px;
+      height: 42px;
+      line-height: 42px;
+      border-bottom: 1px solid #ccc;
+      box-sizing: border-box;
+      background: #f5f5f5;
+      font-size: 14px;
+      color: #000000;
+      text-align: center; }
+    .member-list .list-box .list-block .name {
+      width: 148px;
+      height: 100%;
+      text-align: left;
+      text-indent: 16px;
+      cursor: pointer; }
+    .member-list .list-box .list-block label {
+      width: 90px;
+      font-size: 14px;
+      cursor: pointer;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;}
+      .member-list .list-box .list-block .name .icheckbox_minimal-blue, .member-list .list-box .list-block .name .iradio_minimal-blue {
+        margin-right: 24px;
+        margin-top: -40px;
+      }
+    .member-list .list-box .list-block .sex-box, .member-list .list-box .list-block .card-kind {
+      width: 72px; }
+      .member-list .list-box .list-block .sex-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .member-list .list-box .list-block .card-kind .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        width: 72px; }
+        .member-list .list-box .list-block .sex-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn, .member-list .list-box .list-block .card-kind .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) .btn {
+          border-radius: 0;
+          padding: 3px 12px; }
+      .member-list .list-box .list-block .sex-box .bootstrap-select.btn-group:not(.input-group-btn), .member-list .list-box .list-block .sex-box .bootstrap-select.btn-group[class*=span], .member-list .list-box .list-block .card-kind .bootstrap-select.btn-group:not(.input-group-btn), .member-list .list-box .list-block .card-kind .bootstrap-select.btn-group[class*=span] {
+        margin-bottom: 0; }
+    .member-list .list-box .list-block .birth, .member-list .list-box .list-block .phone {
+      width: 126px; }
+    .member-list .list-box .list-block .sort-list {
+      position: relative;
+      cursor: pointer; }
+      .member-list .list-box .list-block .sort-up span {
+        width: 20px;
+        height: 20px;
+        background: url("../../../images/new-image/member/icon_arrow_up.png") no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 10px; }
+    .member-list .list-box .list-block .sort-down span {
+      width: 20px;
+      height: 20px;
+      background: url("../../../images/new-image/member/icon_arrow_down.png") no-repeat;
+      background-size: 100%;
+      position: absolute;
+      top: 10px;}
+    .member-list .list-box .list-block .mail {
+      width: 260px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    .member-list .list-box .list-block .run-card, .member-list .list-box .list-block .add-up-num, .member-list .list-box .list-block .order-class {
+      width: 130px; }
+    .member-list .list-box .list-block .renewal-card {
+      width: 116px; }
+    .member-list .list-box .list-block .expire, .member-list .list-box .list-block .latest-class {
+      width: 120px; }
+    .member-list .list-box .list-block .card-kind {
+      width: 110px; }
+    .member-list .list-box .list-block .card-type {
+      width: 86px; }
+    .member-list .list-box .list-block .count {
+      width: 100px; }
+    .member-list .list-box .list-block .status {
+      width: 76px; }
+    .member-list .list-box .list-block .rate {
+      width: 186px; }
+    .member-list .list-box .list-block .order-rate {
+      width: 188px; }
+    .member-list .list-box .list-block .attendance {
+      width: 150px; }
+    .member-list .list-box .list-block .data-list {
+      width: 2396px;
+      height: auto; }
+      .member-list .list-box .list-block .data-list li {
+        width: 100%;
+        height: 46px;
+        line-height: 46px;
+        border-bottom: 1px solid #ccc;
+        box-sizing: border-box;
+        text-align: center; }
+.member-list .list-box .list-block .data-list p{
+  height: 46px;
+}
+  .member-list .list-box .operation {
+    width: 100%;
+    height: auto;
+    margin-top: 36px; }
+    .member-list .list-box .operation p {
+      width: 96px;
+      height: 100%;
+      text-indent: 16px;
+      line-height: 34px;
+      background: #000;
+      color: #fff;
+      font-size: 16px;
+      position: relative;
+      cursor: pointer; }
+      .member-list .list-box .operation p span {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 7px;
+        right: 18px; }
+    .member-list .list-box .operation .extend {
+      margin-right: 40px; }
+      .member-list .list-box .operation .extend span {
+        background: url("../../../images/new-image/member/icon_extend.png") no-repeat;
+        background-size: 100%; }
+    .member-list .list-box .operation .export {
+      margin-right: 8px; }
+      .member-list .list-box .operation .export span {
+        background: url("../../../images/new-image/member/icon_export.png") no-repeat;
+        background-size: 100%; }
+    .member-list .list-box .operation .import span {
+      background: url("../../../images/new-image/member/icon_import.png") no-repeat;
+      background-size: 100%; }
+.member-list .extend-box {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none; }
+  .member-list .extend-box .extend-block {
+    width: 360px;
+    height: 240px;
+    box-shadow: 0 0 10px #ccc;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: -180px;
+    border-radius: 8px; }
+    .member-list .extend-box .extend-block .extend-block-title {
+      width: 100%;
+      height: 50px;
+      padding: 0 20px;
+      box-sizing: border-box;
+      line-height: 50px;
+      font-size: 16px;
+      color: #333;
+      border-bottom: 1px solid #dfdfdf; }
+    .member-list .extend-box .extend-block .extend-block-content {
+      width: 100%;
+      height: 140px;
+      padding: 20px;
+      box-sizing: border-box; }
+      .member-list .extend-box .extend-block .extend-block-content p {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px; }
+      .member-list .extend-box .extend-block .extend-block-content .input {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        color: #333; }
+        .member-list .extend-box .extend-block .extend-block-content .input input {
+          width: 100px;
+          height: 32px;
+          line-height: 32px;
+          font-size: 14px;
+          color: #333;
+          border: 1px solid #dfdfdf;
+          box-sizing: border-box;
+          margin-right: 10px; }
+    .member-list .extend-box .extend-block .extend-block-bottom {
+      width: 100%;
+      height: 50px;
+      padding: 0 20px;
+      box-sizing: border-box; }
+      .member-list .extend-box .extend-block .extend-block-bottom a {
+        width: 88px;
+        height: 36px;
+        margin-left: 16px;
+        font-size: 14px;
+        border-radius: 6px;
+        text-align: center;
+        line-height: 36px; }
+      .member-list .extend-box .extend-block .extend-block-bottom a:hover {
+        text-decoration: none; }
+      .member-list .extend-box .extend-block .extend-block-bottom .cancel-btn {
+        line-height: 34px;
+        border: 1px solid #dfdfdf;
+        box-sizing: border-box;
+        color: #666; }
+      .member-list .extend-box .extend-block .extend-block-bottom .sure-btn {
+        background: #0088cc;
+        color: #fff; }
+
+/*# sourceMappingURL=member-list.css.map */

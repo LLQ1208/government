@@ -1,0 +1,98 @@
+body,html{
+  background: #000;
+  width:100%;
+  padding-bottom:30px;
+}
+.box{
+  width:1290px;
+  margin:52px auto 0;
+  .choose{
+    width:182px !important;
+    height:34px;
+    border:1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-left:40px !important;
+    margin-bottom:40px;
+    .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+      width:167px;
+      height:36px;
+      background: #444;
+    }
+    .btn-default{
+      background: #444;
+      color: #fff;
+      border:none;
+    }
+  }
+  .commonList{
+    width:960px;
+    margin:35px auto 0;
+    background: #111;
+    padding-bottom:10px;
+    .title{
+      width:100%;
+      height:36px;
+      text-align: center;
+      line-height:36px;
+      font-size: 18px;
+      color: #fff;
+      font-weight:bold;
+      background: #222;
+    }
+    .left{
+      width:478px;
+      height:auto;
+      .leftTitle{
+        width:420px;
+        height:36px;
+        text-align: center;
+        line-height:36px;
+        margin:0 auto 7px;
+        border-bottom:1px solid #fff;
+        font-size:14px;
+        font-weight:bold;
+        color: #fff;
+      }
+      .contentList{
+        width:420px;
+        margin:0 auto;
+        li{
+          width:100%;
+          height:30px;
+          .name{
+            width:228px;
+            height:30px;
+            line-height:30px;
+            color: #fff;
+            font-size:14px;
+          }
+          .date{
+            width:130px;
+            height:30px;
+            line-height:30px;
+            color: #fff;
+            font-size:14px;
+          }
+          .time{
+            width:62px;
+            height:30px;
+            line-height:30px;
+            color: #fff;
+            font-size:14px;
+            text-align: right;
+          }
+        }
+      }
+    }
+    .midLine{
+      height:100%;
+      width:1px;
+      background: #fff;
+    }
+  }
+}
+p{
+  margin:0 !important;
+}

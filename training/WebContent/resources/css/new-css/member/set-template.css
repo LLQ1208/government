@@ -1,0 +1,62 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+.set-template {
+  background: #fff; }
+  .set-template .add-box {
+    width: 100%;
+    height: 34px;
+    padding-bottom: 10px;
+    background: #eeeeee; }
+    .set-template .add-box a {
+      width: 80px;
+      height: 34px;
+      background: #ff350e;
+      text-align: center;
+      line-height: 34px;
+      color: #fff;
+      font-size: 16px; }
+  .set-template .template-box {
+    width: 100%;
+    height: auto;
+    padding: 10px 30px;
+    box-sizing: border-box; }
+    .set-template .template-box .temp-head {
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      border-bottom: 1px solid #dfdfdf;
+      box-sizing: border-box;
+      font-size: 14px;
+      color: #333; }
+    .set-template .template-box .temp-list {
+      width: 100%;
+      height: auto; }
+      .set-template .template-box .temp-list li {
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px; }
+    .set-template .template-box .name {
+      width: 120px;
+      text-indent: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;}
+    .set-template .template-box .price {
+      width: 80px;
+      text-align: center; }
+    .set-template .template-box .classes {
+      width: 300px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    .template_name{
+      cursor: pointer;
+    }
+/*# sourceMappingURL=set-template.css.map */

@@ -1,0 +1,145 @@
+p {
+  margin-bottom: 0;
+}
+
+.boss {
+  .boss-box {
+    width: 100%;
+    height: 190px;
+    background: #fff;
+    border-bottom: 8px solid #eee;
+    padding: 25px 16px 0 56px;
+    box-sizing: border-box;
+    .img-box {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-right: 65px;
+      background: url("../../images/temp/temp.jpg") no-repeat;
+      background-size: cover;
+    }
+    .info-box {
+      width: 400px;
+      height: auto;
+      h4 {
+        width: 100%;
+        height: 44px;
+        line-height: 44px;
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 18px;
+      }
+      p {
+        width: 100%;
+        height: 26px;
+        line-height: 26px;
+        font-size: 14px;
+        color: #999999;
+      }
+    }
+    .build-btn {
+      width: 96px;
+      height: 32px;
+      text-align: center;
+      line-height: 32px;
+      font-size: 16px;
+      color: #fff;
+      margin-top: 66px;
+      background: #ff350e;
+    }
+    .build-btn:hover{
+      text-decoration: none;
+    }
+  }
+  .boss-list {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 30px 36px;
+    box-sizing: border-box;
+    .boss-head {
+      width: 100%;
+      height: auto;
+      background: #f5f5f5;
+      border-bottom: 1px solid #ccc;
+      box-sizing: border-box;
+      p {
+        text-align: center;
+        height: 42px;
+        line-height: 42px;
+        font-size: 14px;
+        color: #000;
+      }
+    }
+    .boss-list-block {
+      width: 100%;
+      height: auto;
+      li {
+        width: 100%;
+        height: auto;
+        padding: 16px 0 18px 0;
+        border-bottom: 1px solid #ccc;
+        box-sizing: border-box;
+        .logo-box {
+          span {
+            width: 60px;
+            height: 60px;
+            background: url("../../images/login/traningLogo_03.png") no-repeat;
+            background-size: cover;
+            display: block;
+            margin-left: 16px;
+          }
+        }
+        .name-box {
+          padding: 0 30px;
+          box-sizing: border-box;
+        }
+        .owner-box {
+          text-align: center;
+        }
+        .address-box {
+          padding: 0 34px;
+          box-sizing: border-box;
+        }
+        .operation{
+          padding-left: 60px;
+          box-sizing: border-box;
+          a{
+            float: left;
+            width: 50px;
+            height: 24px;
+            text-align: center;
+            line-height:22px;
+            color: #f54337;
+            font-size: 14px;
+            border: 1px solid #f54337;
+            box-sizing: border-box;
+            border-radius:6px;
+            margin-right: 14px;
+            margin-bottom: 12px;
+            display: block;
+          }
+          a:hover{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .logo-box {
+      width: 116px;
+    }
+    .name-box {
+      width: 204px;
+    }
+    .owner-box {
+      width: 124px;
+    }
+    .address-box {
+      width: 292px;
+    }
+    .operation {
+      width: 228px;
+    }
+
+  }
+}

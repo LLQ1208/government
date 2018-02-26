@@ -1,0 +1,55 @@
+body,html{width:100%; height:100%; min-height: 700px;}
+.class{width: 100%; height: 100%; min-height: 700px; min-width: 1257px; background:url(../images/classBanner.png) no-repeat center top; background-size: cover; -ms-behavior: url(css/backgroundsize.min.htc); behavior: url(css/backgroundsize.min.htc);}
+.class .header{width: 100%;  height: 52px; line-height: 50px;}
+.littleLogo{width: 143px; height: 39px;  margin-left: 25px; margin-top: 6px;}
+.littleLogo img{width: 100%; height: 100%; vertical-align: middle;}
+.class .header .nav{min-width: 200px; height: 50px;}
+.class .header .nav li{float: left;}
+.nav li a{color: #cccccd; display: inline-block; padding: 0 28px;}
+/*内容开始*/
+.content{width: 100%; height: auto; padding: 0 75px;}
+.content .firstLine .timeSelect{width: 236px; height: 40px; border: 1px solid #5d5d63; border-radius: 4px; overflow: hidden;}
+.firstLine .timeSelect span{width: 39px; line-height: 40px; font-size: 20px; color: #5d5d63; text-align: center; font-weight: bold; font-size: 24px; cursor: pointer;}
+.firstLine .timeSelect .stime{width: 156px; line-height: 40px; font-size: 16px; color: #eaebeb; border-left:1px solid #5d5d63; border-right:  1px solid #5d5d63; text-align: center;}
+.content .firstLine{height: 44px; margin-top: 30px;}
+.content .firstLine .export{color: #fff; font-size: 16px; cursor: pointer;}
+.content .firstLine .export img{ vertical-align: -8px; margin-right: 10px;}
+.content .course{width: 100%;min-height:574px;overflow: hidden;}
+.content .course li{padding: 8px 0 8px 25px; line-height: 38px; font-size: 16px; color: #bcbbbb; border-bottom: 1px solid #3b3c3d;}
+.content .course li .name{float: left; margin-left:20px}
+.content .course li .delete{
+	cursor: pointer;
+	display:none;
+	font-size: 9px;
+    line-height: 0.9;
+    padding: 2px 3px;
+    right: 7px;
+    top: 9px;
+    color:#ff0000;
+}
+.content .course li label{
+	width:150px;
+}
+.content .course li.cff{font-size: 20px; color: #bc2a1d; font-weight: bold;}
+.content .course li.blue{font-size: 20px; color: #238daf; font-weight: bold;}
+.btn-c {
+    border: 1px solid #441515;
+    border-radius: 4px;
+    color: #f72917;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 10px;
+    text-align: center;
+    width: 72px;
+    font-size:14px;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:15px;
+    padding-right:15px;
+    cursor: pointer;
+}
+.btn-c:focus,.btn-c:hover{
+	background-color: #661710;
+	cursor: pointer;
+	color: #f72917;
+}

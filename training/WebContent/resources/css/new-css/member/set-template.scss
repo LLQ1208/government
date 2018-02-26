@@ -1,0 +1,60 @@
+.set-template{
+  background: #fff;
+  .add-box{
+    width: 100%;
+    height: 34px;
+    padding-bottom: 10px;
+    background: #eeeeee;
+    a{
+      width: 80px;
+      height:34px;
+      background: #ff350e;
+      text-align: center;
+      line-height: 34px;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+  .template-box{
+    width: 100%;
+    height: auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    .temp-head{
+      width: 100%;
+      height:30px;
+      line-height: 30px;
+      border-bottom: 1px solid #dfdfdf;
+      box-sizing: border-box;
+      font-size: 14px;
+      color: #333;
+    }
+    .temp-list{
+      width: 100%;
+      height: auto;
+      li{
+        width: 100%;
+        height: 36px;
+        line-height:36px;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    }
+    .name{
+      width:120px;
+      text-indent: 10px;
+    }
+    .price{
+      width:80px;
+      text-align: center;
+    }
+    .classes{
+      width: 300px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

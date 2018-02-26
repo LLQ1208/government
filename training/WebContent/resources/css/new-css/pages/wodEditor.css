@@ -1,0 +1,788 @@
+body, html {
+  background: #eee; }
+.content-box{
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+.main-content{
+  background: none !important;
+}
+.bootstrap-select {
+  margin-bottom: 0 !important; }
+
+.addOne {
+  margin-top: 4px;
+  display: none; }
+
+.metcon {
+  display: none; }
+  .metcon .changeTitle:hover {
+    cursor: pointer; }
+
+.cancle:hover, .confirm:hover, .comment:hover, .circle:hover, .addSectionCancel:hover, .nameEditor:hover, .titleLeft:hover {
+  cursor: pointer; }
+
+.write {
+  font-size: 14px;
+  color: #000;
+  margin: 0 !important;
+  text-indent: 108px; }
+
+.wodEditor {
+  width: 1052px;
+  height: auto;
+  position: relative; }
+  .wodEditor .wodName {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 25px;
+    position: relative; }
+    .wodEditor .wodName .title {
+      width: 300px;
+      height: 64px;
+      line-height: 64px;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+      margin-left: 24px; }
+      .wodEditor .wodName .title .titleRight {
+        border: 1px solid #ececec;
+        width: 72px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 14px;
+        color: #999999;
+        margin: 20px 0 0 18px;
+        font-weight: normal;
+        cursor: pointer;}
+    .wodEditor .wodName .date, .wodEditor .wodName .type, .wodEditor .wodName .traningGym {
+      margin-left: 24px;
+      font-size: 14px;
+      color: #000;
+      margin-top: 10px; }
+    .wodEditor .wodName .nameEditor {
+      width: 72px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      background: #fc340e;
+      position: absolute;
+      top: 22px;
+      right: 23px;
+      cursor: pointer; }
+  .wodEditor #contnet {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 17px; }
+    .wodEditor #contnet .add {
+      width: 258px;
+      height: 232px;
+      background: #fff;
+      position: fixed;
+      margin: 0 0 0 794px; }
+      .wodEditor #contnet .add .addEditor {
+        color: #000;
+        font-size: 16px;
+        margin: 22px 0 0 24px;
+        font-weight: bold; }
+      .wodEditor #contnet .add .addMiddle {
+        width: 208px;
+        margin-left: 24px; }
+        .wodEditor #contnet .add .addMiddle .bootstrap-select {
+          margin-top: 20px;
+          margin-bottom: 0; }
+      .wodEditor #contnet .add select {
+        width: 208px;
+        height: 32px;
+        border: 1px solid #dddddd;
+        margin: 20px 0 0 0 !important;
+        outline: none;
+        display: block;
+        font-size: 14px;
+        color: #000;
+        text-indent: 18px; }
+    .wodEditor #contnet .section-box {
+      display: none; }
+      .wodEditor #contnet .section-box .metcon {
+        display: block;
+        background: none; }
+      .wodEditor #contnet .section-box .addContent {
+        display: none; }
+    .wodEditor #contnet .addleft {
+      width: 778px;
+      /*position: absolute;
+      left: 0;
+      top: 0;*/
+      padding-bottom: 30px; }
+      .wodEditor #contnet .addleft .addContent {
+        width: 778px; }
+        .wodEditor #contnet .addleft .addContent .addSection {
+          width: 100%;
+          background: #fff;
+          padding-bottom: 16px; }
+          .wodEditor #contnet .addleft .addContent .addSection .sectionBtn {
+            width: 152px;
+            height: 24px;
+            margin: 20px 0 0 600px; }
+            .wodEditor #contnet .addleft .addContent .addSection .sectionBtn .cancle, .wodEditor #contnet .addleft .addContent .addSection .sectionBtn .confirm {
+              width: 72px;
+              height: 24px;
+              line-height: 24px;
+              text-align: center;
+              color: #fff;
+              font-size: 14px;
+              background: #ccc; }
+            .wodEditor #contnet .addleft .addContent .addSection .sectionBtn .confirm {
+              background: #fc340e;
+              margin-left: 8px; }
+          .wodEditor #contnet .addleft .addContent .addSection .middle {
+            width: 100%;
+            margin: 12px 0 0 0; }
+            .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft {
+              width: 430px;
+              margin-left: 24px;
+              border: 1px solid #ddd;
+              -webkit-border-radius: 2px;
+              -moz-border-radius: 2px;
+              border-radius: 2px;
+              padding-bottom: 17px; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .title {
+                height: 38px;
+                background: #eeeeee;
+                text-align: center;
+                line-height: 38px;
+                color: #000;
+                font-size: 16px; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .chodse {
+                width: 100%;
+                height: 32px;
+                margin-top: 23px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .chodse .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+                  width: 308px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .chodse input {
+                  height: 32px;
+                  width: 60px;
+                  border: 1px solid #ddd;
+                  margin-left: 16px;
+                  margin-right: 26px;
+                  text-align: center; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .chodse select {
+                  width: 308px;
+                  height: 32px;
+                  border: 1px solid #ddd;
+                  margin-left: 26px;
+                  outline: none;
+                  text-indent: 17px;
+                  font-size: 14px;
+                  background: #fff; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .number {
+                width: 100%;
+                height: 32px;
+                font-size: 14px;
+                color: #999; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .number .number1 {
+                  width: 60px;
+                  margin-left: 16px;
+                  line-height: 32px;
+                  text-align: left; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .number .number2 {
+                  width: 300px;
+                  margin-left: 32px;
+                  line-height: 32px;
+                  text-align: left; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .set5 {
+                width: 308px;
+                height: 32px;
+                border: 1px solid #ddd;
+                margin-left: 108px;
+                margin-top: 12px;
+                outline: none;
+                font-size: 14px;
+                background: #fff;
+                text-align: center;
+                padding: 10px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .rep {
+                width: 300px;
+                margin-left: 108px;
+                line-height: 32px;
+                text-align: left;
+                height: 32px;
+                font-size: 14px;
+                color: #999; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .down {
+                width: 100%;
+                display: none; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .weight {
+                width: 100%;
+                margin-top: 20px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .weight .weightT {
+                  width: 286px;
+                  min-height: 60px;
+                  border: 1px solid #ddd;
+                  resize: none;
+                  margin-left: 108px;
+                  display: inline-block;
+                  outline: none; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .weight .circle {
+                  display: inline-block;
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  background: url("../../../../resources/images/new-image/wod/close_03.png");
+                  -webkit-background-size: cover;
+                  background-size: cover;
+                  vertical-align: top; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .comment {
+                width: 100px;
+                margin-left: 108px;
+                line-height: 32px;
+                text-align: left;
+                height: 32px;
+                font-size: 14px;
+                color: #fc340e;
+                cursor: pointer; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .comment .jia {
+                  width: 20px;
+                  height: 20px;
+                  display: inline-block;
+                  background: url("../../../../resources/images/new-image/wod/add_03.png");
+                  -webkit-background-size: cover;
+                  background-size: cover;
+                  vertical-align: text-bottom; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleLeft .comment2 {
+                color: #999; }
+            .wodEditor #contnet .addleft .addContent .addSection .middle .middleright {
+              width: 276px;
+              margin-left: 24px;
+              border: 1px solid #ddd;
+              -webkit-border-radius: 2px;
+              -moz-border-radius: 2px;
+              border-radius: 2px;
+              padding-bottom: 20px; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .title {
+                height: 38px;
+                background: #eeeeee;
+                text-align: center;
+                line-height: 38px;
+                color: #000;
+                font-size: 16px; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .recode {
+                font-size: 14px;
+                color: #000;
+                height: 32px;
+                margin-top: 23px;
+                text-indent: 17px;
+                width: 100%; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .in {
+                width: 100%;
+                height: 32px;
+                margin-top: 15px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .in .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+                  width: 84px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .in .spanin {
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  margin-left: 17px;
+                  text-align: left;
+                  line-height: 32px;
+                  font-size: 14px;
+                  color: #000; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .in select {
+                  width: 84px;
+                  height: 32px;
+                  border: 1px solid #ddd;
+                  background: #fff;
+                  text-indent: 17px;
+                  font-size: 14px;
+                  color: #000;
+                  outline: none; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .for {
+                width: 100%;
+                height: 32px;
+                margin-top: 46px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .for .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+                  width: 84px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .for .spanfor {
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  margin-left: 17px;
+                  text-align: left;
+                  line-height: 32px;
+                  font-size: 14px;
+                  color: #000; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .for input {
+                  width: 84px;
+                  height: 32px;
+                  border: 1px solid #ddd;
+                  background: #fff;
+                  text-indent: 17px;
+                  font-size: 14px;
+                  color: #000;
+                  outline: none; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .for input:last-child {
+                  text-align: center;
+                  text-indent: 0; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .for .x {
+                  width: 26px;
+                  line-height: 32px;
+                  text-align: center;
+                  color: #999999;
+                  font-size: 14px;
+                  margin: 0; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .for3 {
+                margin-top: 20px; }
+              .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .sets {
+                width: 100%;
+                height: 32px;
+                line-height: 32px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .sets .ref {
+                  width: 84px;
+                  height: 32px;
+                  line-height: 32px;
+                  text-align: left;
+                  display: inline-block;
+                  font-size: 14px;
+                  color: #999;
+                  margin-left: 53px; }
+                .wodEditor #contnet .addleft .addContent .addSection .middle .middleright .sets .ref:last-child {
+                  margin-left: 30px; }
+          .wodEditor #contnet .addleft .addContent .addSection .addSectionCancel {
+            width: 72px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            background: #fff;
+            color: #000;
+            font-size: 14px;
+            border: 1px solid #f2f2f2;
+            margin: 10px 0 0 682px; }
+        .wodEditor #contnet .addleft .addContent .addSection1 {
+          width: 100%;
+          background: #fff;
+          padding-bottom: 16px; }
+          .wodEditor #contnet .addleft .addContent .addSection1 .sectionBtn {
+            width: 152px;
+            height: 24px;
+            margin: 20px 0 0 600px; }
+            .wodEditor #contnet .addleft .addContent .addSection1 .sectionBtn .cancle, .wodEditor #contnet .addleft .addContent .addSection1 .sectionBtn .confirm {
+              width: 72px;
+              height: 24px;
+              line-height: 24px;
+              text-align: center;
+              color: #fff;
+              font-size: 14px;
+              background: #ccc; }
+            .wodEditor #contnet .addleft .addContent .addSection1 .sectionBtn .confirm {
+              background: #fc340e;
+              margin-left: 8px; }
+          .wodEditor #contnet .addleft .addContent .addSection1 .middle {
+            width: 100%;
+            margin: 12px 0 0 0; }
+            .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft {
+              width: 430px;
+              margin-left: 24px;
+              border: 1px solid #ddd;
+              -webkit-border-radius: 2px;
+              -moz-border-radius: 2px;
+              border-radius: 2px;
+              padding-bottom: 17px; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .title {
+                height: 38px;
+                background: #eeeeee;
+                text-align: center;
+                line-height: 38px;
+                color: #000;
+                font-size: 16px; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodse1 {
+                width: 60px;
+                height: 100%;
+                margin-top: 23px;
+                color: #999; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodse1 .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+                  width: 308px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodse1 input {
+                  height: 32px;
+                  width: 60px;
+                  border: 1px solid #ddd;
+                  margin-left: 16px;
+                  margin-right: 26px;
+                  text-align: center; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodse1 .number1 {
+                  width: 60px;
+                  margin-left: 16px;
+                  line-height: 32px;
+                  text-align: left; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 {
+                width: 310px;
+                margin-right: 16px;
+                margin-top: 23px;
+                color: #999; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .weightT1 {
+                  width: 286px;
+                  min-height: 60px;
+                  border: 1px solid #ddd;
+                  outline: none;
+                  margin: 0; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .number2 {
+                  width: 300px;
+                  line-height: 32px;
+                  text-align: left;
+                  margin: 0; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .down {
+                  width: 100%;
+                  display: none; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .weight {
+                  width: 100%;
+                  margin-top: 20px; }
+                  .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .weight .weightT {
+                    width: 286px;
+                    height: 60px;
+                    border: 1px solid #ddd;
+                    outline: none;
+                    margin: 0;
+                    display: inline-block; }
+                  .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .weight .circle {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    background: url("../../../../resources/images/new-image/wod/close_03.png");
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                    vertical-align: top; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .comment {
+                  width: 100px;
+                  line-height: 32px;
+                  text-align: left;
+                  height: 32px;
+                  font-size: 14px;
+                  color: #fc340e;
+                  cursor: pointer; }
+                  .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .comment .jia {
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    background: url("../../../../resources/images/new-image/wod/add_03.png");
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                    vertical-align: text-bottom; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleLeft .chodseright1 .commentaa {
+                  width: 100px;
+                  text-align: left;
+                  height: 32px;
+                  font-size: 14px;
+                  color: #999;
+                  line-height: 32px;
+                  margin-top: 10px; }
+            .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright {
+              width: 276px;
+              margin-left: 24px;
+              border: 1px solid #ddd;
+              -webkit-border-radius: 2px;
+              -moz-border-radius: 2px;
+              border-radius: 2px;
+              padding-bottom: 20px; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .title {
+                height: 38px;
+                background: #eeeeee;
+                text-align: center;
+                line-height: 38px;
+                color: #000;
+                font-size: 16px; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .recode {
+                font-size: 14px;
+                color: #000;
+                height: 32px;
+                margin-top: 23px;
+                text-indent: 17px;
+                width: 100%; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .recode .rounds {
+                  width: 60px;
+                  height: 34px;
+                  border: 1px solid #ddd;
+                  text-indent: 17px;
+                  display: inline-block;
+                  margin-right: 12px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .recode .time {
+                  width: 192px;
+                  height: 32px;
+                  background: #fff;
+                  text-indent: 17px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .recode .timeshort {
+                  width: 116px;
+                  margin-top: -5px; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .descri {
+                font-size: 14px;
+                color: #999;
+                text-indent: 48px;
+                margin-top: 3px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .descri span {
+                  margin-right: 14px; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .rx {
+                width: 100%;
+                font-size: 14px;
+                color: #000;
+                height: 32px;
+                margin-top: 23px;
+                text-indent: 17px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .rx input[type=radio] {
+                  margin-left: 16px;
+                  padding: 2px;
+                  margin-right: 5px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .rx input:checked {
+                  background: red; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .in {
+                width: 100%;
+                height: 32px;
+                margin-top: 15px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .in .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+                  width: 84px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .in .spanin {
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  margin-left: 17px;
+                  text-align: left;
+                  line-height: 32px;
+                  font-size: 14px;
+                  color: #000; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .in select {
+                  width: 84px;
+                  height: 32px;
+                  border: 1px solid #ddd;
+                  background: #fff;
+                  text-indent: 17px;
+                  font-size: 14px;
+                  color: #000;
+                  outline: none; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .for {
+                width: 100%;
+                height: 32px;
+                margin-top: 46px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .for .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+                  width: 84px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .for .spanfor {
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  margin-left: 17px;
+                  text-align: left;
+                  line-height: 32px;
+                  font-size: 14px;
+                  color: #000; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .for select {
+                  width: 84px;
+                  height: 32px;
+                  border: 1px solid #ddd;
+                  background: #fff;
+                  text-indent: 17px;
+                  font-size: 14px;
+                  color: #000;
+                  outline: none; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .for .x {
+                  width: 26px;
+                  line-height: 32px;
+                  text-align: center;
+                  color: #999999;
+                  font-size: 14px;
+                  margin: 0; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .for3 {
+                margin-top: 20px; }
+              .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .sets {
+                width: 100%;
+                height: 32px;
+                line-height: 32px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .sets .ref {
+                  width: 84px;
+                  height: 32px;
+                  line-height: 32px;
+                  text-align: left;
+                  display: inline-block;
+                  font-size: 14px;
+                  color: #999;
+                  margin-left: 53px; }
+                .wodEditor #contnet .addleft .addContent .addSection1 .middle .middleright .sets .ref:last-child {
+                  margin-left: 30px; }
+          .wodEditor #contnet .addleft .addContent .addSection1 .addSectionCancel {
+            width: 72px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            background: #fff;
+            color: #000;
+            font-size: 14px;
+            border: 1px solid #f2f2f2;
+            margin: 10px 0 0 682px; }
+    .wodEditor #contnet .metcon {
+      width: 100%;
+      background: #fff;
+      padding-bottom: 20px; }
+      .wodEditor #contnet .metcon h3 {
+        font-size: 16px;
+        color: #fc340e;
+        margin-left: 24px;
+        margin-top: 12px; }
+      .wodEditor #contnet .metcon .p1 {
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        margin-left: 49px; }
+
+.rx {
+  width: 100%;
+  font-size: 14px;
+  color: #000;
+  height: 32px;
+  margin-top: 23px;
+  text-indent: 17px; }
+  .rx input[type=radio] {
+    margin-left: 16px;
+    padding: 2px;
+    margin-right: 5px; }
+  .rx input:checked {
+    background: red; }
+
+.mark {
+  width: 778px;
+  background: #fff;
+  margin-top: 4px;
+  padding-bottom: 20px; }
+  .mark h2 {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    text-indent: 23px; }
+  .mark .markDown {
+    font-size: 14px;
+    color: #000;
+    text-indent: 23px;
+    width: 100%; }
+
+.singleSkill {
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  text-indent: 23px; }
+
+.single {
+  width: 728px !important; }
+  .single .singleSel {
+    width: 689px !important;
+    margin-left: 23px !important; }
+
+.sectionBtnsingle {
+  margin-left: 536px !important; }
+
+.singleNumber {
+  margin-left: 23px;
+  margin-top: 4px; }
+
+.singlecomment {
+  margin-left: 23px !important; }
+
+.singleweightT {
+  margin-left: 23px !important;
+  width: 350px !important; }
+
+.edit-box {
+  display: none; }
+
+textarea {
+  resize: none; }
+
+.unit {
+  display: none; }
+  .unit .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 78px !important; }
+
+/*# sourceMappingURL=wodEditor.css.map */
+
+.delete_but{
+  width: 78px;
+  height: 29px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background: blue;
+  position: absolute;
+  top: 22px;
+  right: 23px;
+  cursor: pointer;
+}
+
+
+.pop-box {
+  width: 320px;
+  min-height: 500px;
+  -webkit-box-shadow: 0 0 20px #666;
+  -moz-box-shadow: 0 0 20px #666;
+  box-shadow: 0 0 20px #666;
+  position: absolute;
+  top: 112px;
+  left: 412px;
+  background: #fff;
+  padding: 0 18px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #000;
+  display: none;
+  height: 500px;
+  overflow-y: auto;}
+ .pop-box .pop-title {
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  margin-bottom: 6px; }
+.pop-box .pop-block {
+  width: 100%;
+  height: auto; }
+.pop-box .pop-block .little-title {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  color: #f54337; }
+.pop-box .pop-block .little-content {
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+.pop-box .pop-block .del-content {
+  width: 100%;
+  height: auto;
+  line-height: 9px; }
+.pop-box .pop-block .del-content p {
+  width: 100%;
+  height: auto;
+  line-height: 22px; }
+.pop-box .pop-block .del-content span {
+  width: 100%;
+  height: auto;
+  line-height: 22px;
+  display: inline-block;
+  color: #999999; }
+
+.pop-box .close {
+  width: 16px;
+  height: 16px;
+  background: url("../../../images/new-image/training/icon_close1.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

@@ -1,0 +1,89 @@
+body,html{width:100%; height:100%; min-height: 720px;}
+.memberBanner{width: 100%; height: 100%; min-width: 1257px; min-height: 1450px; position: relative; background-size: cover; -ms-behavior: url(css/backgroundsize.min.htc); behavior: url(css/backgroundsize.min.htc);}
+/*.memberBanner{width: 100%; height: 100%; min-width: 1257px; min-height: 1450px; position: relative; background:url(../images/memberBanner.png) no-repeat center top; background-size: cover; -ms-behavior: url(css/backgroundsize.min.htc); behavior: url(css/backgroundsize.min.htc);}*/
+.memberBanner .header{width: 100%;  height: 52px; line-height: 50px;}
+.memberBanner .littleLogo{width: 143px; height: 39px;  margin-left: 25px; margin-top: 6px;}
+.memberBanner .littleLogo img{width: 100%; height: 100%; vertical-align: middle;}
+.memberBanner .header .nav{min-width: 200px; height: 50px;}
+.memberBanner .header .nav li{float: left;}
+/* .memberBanner .nav li.cur a{border-bottom: 2px solid #ff3823;} */
+/*.content{width: 1016px; min-height: 591px; border:2px solid #441515; border-radius: 20px; overflow: hidden; position: absolute; left: 50%; margin-left: -508px; top: 15%; margin-top: -113px; background: url(../images/popBg.png) repeat; padding: 0 104px 20px;}*/
+.content{width: 1016px; min-height: 591px; border-radius: 20px; overflow: hidden;  padding: 0 104px 20px;}
+.content .searchInput{position: relative; width: 280px; height: 40px;       box-sizing: border-box; font-size: 14px; color: #333;}
+.content .searchInput input{width: 100%; height: 38px; line-height: 38px; outline: none; border: 1px solid #a81112; border-radius: 4px; overflow: hidden;  color: #000000; font-family: "微软雅黑"; font-size: 14px; text-indent: 40px;}
+.searchLine{margin: 20px 0;}
+.content .searchInput .glass{position: absolute; width: 19px; height: 18px; top: 10px; left: 10px; background: url(../images/glass.png) no-repeat;}
+.searchLine .searchBtn{margin-left: 15px; width: 72px; height: 38px; line-height: 38px; text-align: center; color: #000000; border-radius: 4px;  cursor: pointer; border:1px solid #441515}
+.member{width: 100%; height: 450px;}
+.member .list{float: left; height: 106px; border-bottom: 1px solid #1f0807; cursor: pointer; padding-top: 11px;}
+.member .list.borderTop{border-top: 1px solid #1f0807;}
+.member .list .pic{width: 110px; height: 83px; overflow: hidden; border-radius: 5px;}
+.member .list .pic img{width: 100%; height: 100%;}
+.member .list .txt{width: 240px; height: auto; margin-left: 15px; padding-top: 5px;}
+.member .list .txt li{height:24px; line-height: 24px; color: #cbcbcc;}
+.member .list .txt li.name{color: #ff3823; font-size: 16px;}
+.member .list .txt li img{margin-right: 10px; vertical-align: -2px;}
+.pages{min-width: 30px; height: 30px; border: 1px solid #5b150e; border-radius: 4px; overflow: hidden; position: absolute; left: 50%;}
+.pages li{float: left; width: 29px; height: 30px; line-height: 30px; color: #ff3823; border-left: 1px solid #5b150e; text-align: center; cursor: pointer;}
+.pages li.first{border-left: 0;}
+/*弹窗*/
+/*.popBox{display: none; width: 840px; height: 609px; padding: 0 30px; position: absolute; left: 50%; margin-left: -420px; top: 13%; margin-top: -20px; background: url(../images/mask.png) no-repeat; overflow: hidden;}*/
+.popBox{display: none; width: 840px; height: 609px; padding: 0 30px; position: absolute; left: 50%; margin-left: -420px; top: 13%; margin-top: -20px; overflow: hidden;}
+.popBox .photo{position: absolute; width: 164px; height: 164px; left: 50%; margin-left: -82px; top: 4px; border-radius: 50%; overflow: hidden;}
+.popBox .photo img{width: 100%; height: 100%;}
+.popBox .nature{width: 50%; height: 34px; line-height: 34px; font-size: 22px; color: #8e1e14; margin-top: 80px;}
+.popBox .name{width: 100%; height: 64px; line-height: 64px; text-align: center; margin-top: 70px; color: #ef3421; font-size: 26px; font-weight: bold;}
+.popBox .name img{margin-right: 15px; vertical-align: -10px;}
+.popBox .datas{width: 100%; min-height: 60px; border-bottom: 1px dashed #3c110e; padding-left: 90px; padding-top: 10px; padding-bottom: 15px;}
+.popBox .datas li{float: left; font-size: 18px; color: #ef3421; width: 50%; height: 60px; line-height: 60px;}
+.popBox .datas li img,.userCode li img{margin-right: 10px; vertical-align: -2px;}
+.userCode{padding-left: 90px;display: none;}
+.userCode li{float: left; height: 112px; line-height: 112px; width: 50%; font-size: 18px; color: #8f8f8f;}
+.userCode li span{color: #aeadae; font-weight: bold;}
+.popBox .edit{display: block; width: 300px; height: 50px; margin: 0 auto;margin-top: 23px;}
+.member .name{padding: 0px 0px 0px 28px;background:url("../images/icon1.png") no-repeat 0px 0px;}
+.member .phone{padding: 0px 0px 0px 28px;background:url("../images/icon2.png") no-repeat 0px 0px;}
+.member .time{padding: 0px 0px 0px 28px;background:url("../images/icon3.png") no-repeat 0px 0px;}
+.btn-b{cursor:pointer;margin-left: 10px;height:30px;width:72px;border:1px solid #441515;text-align: center;border-radius: 4px;color:#F72917;line-height: 30px;}
+.btn-c{margin-left: 10px;height:38px;width:72px;border:1px solid #441515;text-align: center;border-radius: 4px;color: #000000;line-height: 38px;}
+.btn-b:hover,.btn-b:focus{background:#661710;color:#F72917;}
+.btn-c:hover,.btn-c:focus{background:#661710;color:#F72917;}
+.upload-avatar{cursor: pointer;}
+.table{
+	font-size:16px;
+	color:#cbcbcc;
+}
+.table tr{
+	height:48px;
+}
+.table>tbody>tr>td,.table>thead>tr>td{
+	border-bottom: 1px solid #1F0807;
+}
+.table>thead{
+	color:#ff3823;
+}
+.btn-add{
+	border: 1px solid #441515;
+    border-radius: 4px;
+    color: #f72917;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 72px;
+}
+.member .name-timeout{
+    background: rgba(0, 0, 0, 0) url("../images/icon1.png") no-repeat scroll 0 0;
+    padding: 0 0 0 28px;
+}
+.member .name-timeout{
+	color:#cbcbcc;
+	font-size: 16px;
+}
+.label-danger {
+    background-color: #F11F0F;
+}
+.content-box{
+    width: 1324px;
+    min-height: 768px;
+    margin: 0 auto;
+}

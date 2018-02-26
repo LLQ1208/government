@@ -1,0 +1,284 @@
+body,html{
+  background: #eee;
+}
+.class-type{
+  width:1052px;
+  .add-class{
+    cursor: pointer;
+    width:97px;
+    height:34px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #ff350e;
+    color: #fff;
+    text-align: center;
+    line-height:34px;
+    margin:15px 0 0 932px;
+    font-size: 16px;
+    font-weight:bold;
+  }
+  .class-content{
+    width:1052px;
+    background: #fff;
+    margin-top: 14px;
+    position: relative;
+    min-height: 700px;
+    .class-title{
+      width:100%;
+      font-size:16px;
+      color: #333;
+      font-weight:bold;
+      height:46px;
+      .class-name{
+        height:100%;
+        line-height:46px;
+        margin-left: 32px;
+      }
+      .class-time{
+        height:100%;
+        line-height:46px;
+        margin-right:40px;
+      }
+    }
+    .class-list{
+      width:100%;
+      font-size:14px;
+      color: #333;
+      .list-common{
+        cursor: pointer;
+        border-top:1px solid #ddd;
+        width:1052px;
+        height:50px;
+        .list-name{
+          height:100%;
+          line-height:50px;
+          margin-left: 32px;
+        }
+        .list-time{
+          height:100%;
+          line-height:50px;
+          margin-right:31px;
+        }
+      }
+    }
+  }
+  .active{
+    border:1px solid red !important;
+  }
+  .tip-bg{
+    display: none;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    .class-tip{
+      width:400px;
+      height:330px;
+      border:1px solid #ddd;
+      background: #fff;
+      position: absolute;
+      left:50%;
+      margin-left:-200px;
+      top:50%;
+      margin-top:-220px;
+      padding:20px;
+      .tip-name{
+        border:1px solid #ddd;
+        width:360px;
+        height:36px;
+        font-size:14px;
+        text-align: center;
+        color: #333;
+      }
+      p{
+        color: #999;
+        font-size:14px;
+        margin-top:4px;
+      }
+      .write{
+        width:360px;
+        height:120px;
+        border:1px solid #ddd;
+        resize: none;
+        outline:none;
+        font-size:14px;
+        color: #333;
+        padding:10px;
+      }
+      .class-btn{
+        width:360px;
+        height:30px;
+        margin-top:30px;
+        .cancel{
+          cursor: pointer;
+          width:70px;
+          height:30px;
+          border:1px solid #ddd;
+          line-height:30px;
+          text-align: center;
+          font-size:14px;
+          color: #333;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          margin-right: 10px;
+        }
+        .confirm{
+          cursor: pointer;
+          width:70px;
+          height:30px;
+          border:1px solid #ddd;
+          line-height:30px;
+          text-align: center;
+          font-size:14px;
+          color: #333;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          background: #ff350e;
+        }
+      }
+    }
+  }
+  .check-bg{
+    display: none;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    .class-tip{
+      width:400px;
+      height:330px;
+      border:1px solid #ddd;
+      background: #fff;
+      position: absolute;
+      left:50%;
+      margin-left:-200px;
+      top:50%;
+      margin-top:-220px;
+      padding:20px;
+      .del{
+        display: none;
+        width:300px;
+        height:140px;
+        background: #eee;
+        padding:20px;
+        position: absolute;
+        left:50%;
+        top:50%;
+        margin-top:-80px;
+        margin-left: -150px;
+        p{
+          font-size:14px;
+          color: #333;
+        }
+        .check-btn{
+          width:260px;
+          height:30px;
+          margin-top:40px;
+          .cancel2{
+            cursor: pointer;
+            width:70px;
+            height:30px;
+            border:1px solid #ddd;
+            line-height:30px;
+            text-align: center;
+            font-size:14px;
+            color: #333;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            margin-right: 10px;
+          }
+          .confirm2{
+            cursor: pointer;
+            width:70px;
+            height:30px;
+            border:1px solid #ddd;
+            line-height:30px;
+            text-align: center;
+            font-size:14px;
+            color: #fff;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            background: #ff350e;
+          }
+        }
+      }
+      .check-name{
+        border:1px solid #ddd;
+        width:360px;
+        height:36px;
+        font-size:14px;
+        text-align: center;
+        color: #333;
+      }
+      p{
+        color: #999;
+        font-size:14px;
+        margin-top:4px;
+      }
+      .write{
+        width:360px;
+        height:120px;
+        border:1px solid #ddd;
+        resize: none;
+        outline:none;
+        font-size:14px;
+        color: #333;
+        padding:10px;
+      }
+      .class-btn{
+        width:360px;
+        height:30px;
+        margin-top:30px;
+        .cancel1{
+          cursor: pointer;
+          width:70px;
+          height:30px;
+          border:1px solid #ddd;
+          line-height:30px;
+          text-align: center;
+          font-size:14px;
+          color: #333;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          margin-right: 10px;
+        }
+        .confirm1{
+          cursor: pointer;
+          width:70px;
+          height:30px;
+          border:1px solid #ddd;
+          line-height:30px;
+          text-align: center;
+          font-size:14px;
+          color: #fff;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          background: #ff350e;
+        }
+        .delete{
+          cursor: pointer;
+          width:70px;
+          height:30px;
+          border:1px solid #ddd;
+          line-height:30px;
+          text-align: center;
+          font-size:14px;
+          color: #333;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          background: #fff;
+        }
+      }
+    }
+  }
+}

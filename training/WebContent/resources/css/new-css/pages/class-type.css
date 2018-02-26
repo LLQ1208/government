@@ -1,0 +1,272 @@
+body, html {
+  background: #eee; }
+.content-box{
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+.class-type {
+  width: 1052px; }
+  .class-type .add-class {
+    cursor: pointer;
+    width: 97px;
+    height: 34px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #ff350e;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    margin: 15px 0 0 932px;
+    font-size: 16px;
+    font-weight: bold; }
+  .class-type .class-content {
+    width: 1052px;
+    background: #fff;
+    margin-top: 14px;
+    position: relative;
+    min-height: 700px; }
+    .class-type .class-content .class-title {
+      width: 100%;
+      font-size: 16px;
+      color: #333;
+      font-weight: bold;
+      height: 46px; }
+      .class-type .class-content .class-title .class-name {
+        height: 100%;
+        line-height: 46px;
+        margin-left: 32px;
+        width: 420px;}
+      .class-type .class-content .class-title .class-remark {
+        height: 100%;
+        line-height: 46px;
+        width: 300px ;}
+      .class-type .class-content .class-title .class-time {
+        height: 100%;
+        line-height: 46px;
+        margin-right: 40px; }
+    .class-type .class-content .class-list {
+      width: 100%;
+      font-size: 14px;
+      color: #333; }
+      .class-type .class-content .class-list .list-common {
+        cursor: pointer;
+        border-top: 1px solid #ddd;
+        width: 1052px;
+        height: 50px; }
+        .class-type .class-content .class-list .list-common .list-name {
+          height: 100%;
+          line-height: 50px;
+          margin-left: 32px;
+          width: 420px}
+        .class-type .class-content .class-list .list-common .list-remarks {
+          height: 100%;
+          line-height: 50px;
+          width: 300px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;}
+        .class-type .class-content .class-list .list-common .list-time {
+          height: 100%;
+          line-height: 50px;
+          margin-right: 31px; }
+  .class-type .active {
+    /*border: 1px solid red !important;*/
+  }
+  .class-type .tip-bg {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+    .class-type .tip-bg .class-tip {
+      width: 400px;
+      height: 330px;
+      border: 1px solid #ddd;
+      background: #fff;
+      position: absolute;
+      left: 50%;
+      margin-left: -200px;
+      top: 50%;
+      margin-top: -165px;
+      padding: 20px; }
+      .class-type .tip-bg .class-tip .tip-name {
+        border: 1px solid #ddd;
+        width: 360px;
+        height: 36px;
+        font-size: 14px;
+        text-align: center;
+        color: #333; }
+      .class-type .tip-bg .class-tip p {
+        color: #999;
+        font-size: 14px;
+        margin-top: 4px; }
+      .class-type .tip-bg .class-tip .write {
+        width: 360px;
+        height: 120px;
+        border: 1px solid #ddd;
+        resize: none;
+        outline: none;
+        font-size: 14px;
+        color: #333;
+        padding: 10px; }
+      .class-type .tip-bg .class-tip .class-btn {
+        width: 360px;
+        height: 30px;
+        margin-top: 30px; }
+        .class-type .tip-bg .class-tip .class-btn .cancel {
+          cursor: pointer;
+          width: 70px;
+          height: 30px;
+          border: 1px solid #ddd;
+          line-height: 30px;
+          text-align: center;
+          font-size: 14px;
+          color: #333;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          margin-right: 10px; }
+        .class-type .tip-bg .class-tip .class-btn .confirm {
+          cursor: pointer;
+          width: 70px;
+          height: 30px;
+          border: 1px solid #ddd;
+          line-height: 30px;
+          text-align: center;
+          font-size: 14px;
+          color: #333;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          background: #ff350e; }
+  .class-type .check-bg {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.54);}
+    .class-type .check-bg .class-tip {
+      width: 400px;
+      height: 330px;
+      border: 1px solid #ddd;
+      background: #fff;
+      position: absolute;
+      left: 50%;
+      margin-left: -200px;
+      top: 50%;
+      margin-top: -165px;
+      padding: 20px; }
+      .class-type .check-bg .class-tip .del {
+        display: none;
+        width: 300px;
+        height: 140px;
+        background: #eee;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: -80px;
+        margin-left: -150px; }
+        .class-type .check-bg .class-tip .del p {
+          font-size: 14px;
+          color: #333; }
+        .class-type .check-bg .class-tip .del .check-btn {
+          width: 260px;
+          height: 30px;
+          margin-top: 40px; }
+          .class-type .check-bg .class-tip .del .check-btn .cancel2 {
+            cursor: pointer;
+            width: 70px;
+            height: 30px;
+            border: 1px solid #ddd;
+            line-height: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            margin-right: 10px; }
+          .class-type .check-bg .class-tip .del .check-btn .confirm2 {
+            cursor: pointer;
+            width: 70px;
+            height: 30px;
+            border: 1px solid #ddd;
+            line-height: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            background: #ff350e; }
+      .class-type .check-bg .class-tip .check-name {
+        border: 1px solid #ddd;
+        width: 360px;
+        height: 36px;
+        font-size: 14px;
+        text-align: center;
+        color: #333; }
+      .class-type .check-bg .class-tip p {
+        color: #999;
+        font-size: 14px;
+        margin-top: 4px; }
+      .class-type .check-bg .class-tip .write {
+        width: 360px;
+        height: 120px;
+        border: 1px solid #ddd;
+        resize: none;
+        outline: none;
+        font-size: 14px;
+        color: #333;
+        padding: 10px; }
+      .class-type .check-bg .class-tip .class-btn {
+        width: 360px;
+        height: 30px;
+        margin-top: 30px; }
+        .class-type .check-bg .class-tip .class-btn .cancel1 {
+          cursor: pointer;
+          width: 70px;
+          height: 30px;
+          border: 1px solid #ddd;
+          line-height: 30px;
+          text-align: center;
+          font-size: 14px;
+          color: #333;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          margin-right: 10px; }
+        .class-type .check-bg .class-tip .class-btn .confirm1 {
+          cursor: pointer;
+          width: 70px;
+          height: 30px;
+          border: 1px solid #ddd;
+          line-height: 30px;
+          text-align: center;
+          font-size: 14px;
+          color: #fff;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          background: #ff350e; }
+        .class-type .check-bg .class-tip .class-btn .delete {
+          cursor: pointer;
+          width: 70px;
+          height: 30px;
+          border: 1px solid #ddd;
+          line-height: 30px;
+          text-align: center;
+          font-size: 14px;
+          color: #333;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          background: #fff; }
+
+/*# sourceMappingURL=class-type.css.map */

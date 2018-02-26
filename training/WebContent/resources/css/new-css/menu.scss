@@ -1,0 +1,146 @@
+.leftBar{
+  width:201px;
+  height: 100%;
+  background: #fff;
+  .logo{
+    width: 188px;
+    height:72px;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+    background:url("../../images/new-image/index/logo_02.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .user{
+    width:201px;
+    height:72px;
+    border-bottom:1px solid #eee;
+    display: flex;
+    .userHead{
+      width:42px;
+      height:42px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      margin:16px 0 0 16px;
+      background: url("../../images/new-image/index/headIcon_03.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      display: block;
+    }
+    .userName{
+      font-size:16px;
+      color: #000;
+      width:108px;
+      margin-left:7px;
+      margin-top:30px;
+    }
+    .downIcon{
+      display: block;
+      width:12px;
+      height:7px;
+      background: url("../../images/new-image/index/down_03.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      margin-top:36px;
+    }
+  }
+}
+.list{
+  width:100%;
+  margin-top:27px;
+  .listCommon{
+    width:100%;
+    .listCommonTitle{
+      cursor: pointer;
+      height:51px;
+      width:100%;
+      .listCommonIcon{
+        display:block;
+        width:21px;
+        height:20px;
+        background: url("../../images/new-image/index/WOD_03.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-left:19px;
+        margin-top:16px;
+      }
+      .memberIcon{
+        background:url("../../images/new-image/index/member_07.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      .orderIcon{
+        background:url("../../images/new-image/index/order.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      .classIcon{
+        background:url("../../images/new-image/index/class.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      .oprationIcon{
+        background:url("../../images/new-image/index/operate_16.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      .emailIcon{
+        background:url("../../images/new-image/index/email_20.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      .priceIcon{
+        background:url("../../images/new-image/index/price_23.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      .setIcon{
+        background:url("../../images/new-image/index/set_26.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      .titleName{
+        width:126px;
+        margin-left:7px;
+        font-size:16px;
+        color: #000;
+        margin-top:16px;
+      }
+      .commonDownIcon{
+        width:12px;
+        height:7px;
+        display: block;
+        background:url("../../images/new-image/index/down_03.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-top:24px;
+      }
+    }
+    .listCommonTitle.active{
+      .commonDownIcon{
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+    .listCommonDetail{
+      width:100%;
+      display: none;
+      .changeSrc{
+        width:100%;
+        height:40px;
+        line-height:40px;
+        color: #000;
+        font-size:14px;
+        text-indent:47px;
+        cursor: pointer;
+      }
+      .changeSrc.active{
+        color: #ff350e;
+      }
+    }
+  }
+}

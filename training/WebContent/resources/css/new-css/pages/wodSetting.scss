@@ -1,0 +1,124 @@
+html,body{
+  background: #eee;
+}
+.settingDeail{
+  width:1053px;
+  height:auto;
+  .title{
+    width:100%;
+    height:70px;
+    .titleTip{
+      width:100%;
+      font-size:16px;
+      color: #333;
+      text-align: left;
+      height: 35px;
+      line-height:35px;
+    }
+    .tip{
+      width:100%;
+      height:35px;
+      line-height:35px;
+      font-size:14px;
+      text-align: left;
+      color: #333;
+    }
+  }
+  .editor{
+    width:100%;
+    height:auto;
+    background: #fff;
+    position: relative;
+    margin-bottom:16px;
+    padding-bottom:24px;
+    p:first-child{
+      font-size:16px;
+      color: #333;
+      margin-left:23px;
+      margin-top:20px;
+    }
+    p:nth-child(2){
+      font-size:14px;
+      color: #999;
+      margin-left:23px;
+      margin-top:10px;
+    }
+    p:nth-child(3){
+      font-size:14px;
+      color: #fc340e;
+      margin-left:23px;
+      margin-top:30px;
+      //display: none;
+    }
+    .editorBtn{
+      position: absolute;
+      right:24px;
+      top:50%;
+      margin-top:-17px;
+      width:96px;
+      height:34px;
+      background: #ccc;
+      line-height:34px;
+      text-align: center;
+      color: #fff;
+      font-size:16px;
+      font-weight:bold;
+      cursor: pointer;
+    }
+    .choose{
+      display: none;
+      width:320px;
+      height:34px;
+      margin-left: 23px;
+      margin-top:30px;
+      .chooseCommon{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 90px;
+        height:34px;
+        border: 1px solid #eee;
+        margin-right:12px;
+        background: #fff;
+        font-size:14px;
+        color: #333333;
+        text-align: center;
+        outline: none;
+      }
+      .chooseCommon:last-child{
+        margin-right:0;
+      }
+    }
+    .backEditor{
+      width:226px;
+      height:34px;
+      position: absolute;
+      top:20px;
+      right:24px;
+      display: none;
+      .cancel{
+        height:100%;
+        width:96px;
+        background: #ccc;
+        line-height:34px;
+        text-align: center;
+        color: #fff;
+        font-size:16px;
+        font-weight:bold;
+        margin-right:34px;
+        cursor: pointer;
+      }
+      .confirm{
+        background: #fc340e;
+        line-height:34px;
+        text-align: center;
+        color: #fff;
+        font-size:16px;
+        font-weight:bold;
+        height:100%;
+        width:96px;
+        cursor: pointer;
+      }
+    }
+  }
+}

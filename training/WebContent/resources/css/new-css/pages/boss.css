@@ -1,0 +1,187 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+p {
+  margin-bottom: 0; }
+
+.boss .boss-box {
+  width: 100%;
+  height: 190px;
+  background: #fff;
+  border-bottom: 8px solid #eee;
+  padding: 25px 16px 0 56px;
+  box-sizing: border-box; }
+.boss .boss-box .logo-box {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 16px auto 30px;
+  position: relative; }
+  .boss .boss-box .img-box {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 65px;
+    background: url("../../../images/new-image/index/headIcon_03.png") no-repeat;
+    background-size: cover; }
+.boss .boss-box .img-box  .file {
+  width: 84px;
+  height: 84px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 22;
+  cursor: pointer;
+  background: transparent;
+  line-height: 88px;
+  text-align: center;
+  }
+.logo-box .file{
+  width: 84px;
+  height: 84px;
+  opacity: 0;
+  filter: alpha(opacity:0);
+}
+.logo-box .file input{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+}
+  .boss .boss-box .info-box {
+    width: 400px;
+    height: auto;
+  margin-left: 20px}
+    .boss .boss-box .info-box h4 {
+      width: 100%;
+      height: 44px;
+      line-height: 44px;
+      font-size: 20px;
+      color: #000;
+      margin-bottom: 18px; }
+.boss .boss-box .info-box .textBoss {
+  width: 61%;
+  height: 44px;
+  line-height: 44px;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 18px;
+  }
+    .boss .boss-box .info-box p {
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      font-size: 14px;
+      color: #999999; }
+.boss .boss-box .info-box p span{
+  width: 60px;
+  display: inline-block;
+}
+.boss .boss-box .info-box p input{
+  margin-left: 10px;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  height: 26px;
+}
+  .boss .boss-box .build-btn {
+    width: 96px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 66px;
+    background: #ff350e; }
+  .boss .boss-box .build-btn:hover {
+    text-decoration: none; }
+.boss .boss-list {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 30px 36px;
+  box-sizing: border-box; }
+  .boss .boss-list .boss-head {
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box; }
+    .boss .boss-list .boss-head p {
+      text-align: center;
+      height: 42px;
+      line-height: 42px;
+      font-size: 14px;
+      color: #000; }
+  .boss .boss-list .boss-list-block {
+    width: 100%;
+    height: auto; }
+    .boss .boss-list .boss-list-block li {
+      width: 100%;
+      height: auto;
+      padding: 16px 0 18px 0;
+      border-bottom: 1px solid #ccc;
+      box-sizing: border-box; }
+      .boss .boss-list .boss-list-block li .logo-box span {
+        width: 60px;
+        height: 60px;
+        /*background: url("../../../images/new-image/index/headIcon_03.png") no-repeat;*/
+        /*background-size: cover;*/
+        display: block;
+        margin-left: 16px; }
+      .boss .boss-list .boss-list-block li .name-box {
+        padding: 0 30px;
+        box-sizing: border-box; }
+      .boss .boss-list .boss-list-block li .owner-box {
+        text-align: center; }
+      .boss .boss-list .boss-list-block li .address-box {
+        padding: 0 34px;
+        box-sizing: border-box; }
+      .boss .boss-list .boss-list-block li .operation {
+        padding-left: 60px;
+        box-sizing: border-box; }
+        .boss .boss-list .boss-list-block li .operation a {
+          float: left;
+          width: 50px;
+          height: 24px;
+          text-align: center;
+          line-height: 22px;
+          color: #f54337;
+          font-size: 14px;
+          border: 1px solid #f54337;
+          box-sizing: border-box;
+          border-radius: 6px;
+          margin-right: 14px;
+          margin-bottom: 12px;
+          display: block; }
+        .boss .boss-list .boss-list-block li .operation a:hover {
+          text-decoration: none; }
+  .boss .boss-list .logo-box {
+    width: 116px;
+    min-height: 20px; }
+  .boss .boss-list .name-box {
+    width: 204px;
+    min-height: 20px; }
+  .boss .boss-list .owner-box {
+    width: 124px;
+    min-height: 20px; }
+  .boss .boss-list .address-box {
+    width: 292px;
+  min-height: 20px;}
+  .boss .boss-list .operation {
+    width: 228px;
+    min-height: 20px; }
+.save-btn{
+  width: 96px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 28px;
+  background: #ff350e;
+}
+/*# sourceMappingURL=boss.css.map */

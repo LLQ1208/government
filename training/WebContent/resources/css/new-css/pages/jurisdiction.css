@@ -1,0 +1,147 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+.box {
+  width: 100%;
+  background: #eee;
+  height: auto;
+  margin: 0 auto; }
+  .box .boxCommon {
+    width: 1070px;
+    height: auto;
+    padding-bottom: 30px;
+    background: #fff;
+    margin-bottom: 72px; }
+    .box .boxCommon .title {
+      width: 100%;
+      font-size: 20px;
+      color: #000;
+      font-weight: bold;
+      background: #eee;
+      margin-bottom: 12px; }
+    .box .boxCommon .set {
+      width: 100%;
+      background: #fff; }
+      .box .boxCommon .set .editor {
+        width: 1005px;
+        height: auto;
+        margin: 20px auto 0; }
+        .box .boxCommon .set .editor .top {
+          width: 100%;
+          height: 48px;
+          background: #eee; }
+          .box .boxCommon .set .editor .top .name {
+            height: 100%;
+            line-height: 48px;
+            margin-left: 24px;
+            font-size: 16px;
+            color: #000;
+            font-weight: bold; }
+          .box .boxCommon .set .editor .top .edit {
+            width: 82px;
+            cursor: pointer; }
+            .box .boxCommon .set .editor .top .edit .pic {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              background: url("../../../images/new-image/edit.png");
+              -webkit-background-size: cover;
+              background-size: cover;
+              margin-right: 6px;
+            margin-top: 16px;}
+            .box .boxCommon .set .editor .top .edit .editting {
+              display: inline-block;
+              height: 48px;
+              line-height: 48px;
+              color: #333333;
+              font-size: 14px; }
+        .box .boxCommon .set .editor .bottom {
+          width: 1005px;
+          border: 1px solid #ddd;
+          border-top: none;
+          min-height: 48px; }
+          .box .boxCommon .set .editor .bottom .type {
+            height: 100%;
+            line-height: 48px;
+            color: #333;
+            font-size: 14px;
+            margin-left: 24px; }
+    .box .boxCommon .choose-pop {
+      width: 900px;
+      height: 520px;
+      /*margin: 0px 530px;*/
+      padding-top: 30px;
+      background: #fff;
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      margin-left: -410px;
+      overflow-y: scroll;
+    }
+      .box .boxCommon .choose-pop .top {
+        width: 100%;
+        height: 48px;
+        background: #eee; }
+        .box .boxCommon .choose-pop .top .name {
+          height: 100%;
+          line-height: 48px;
+          margin-left: 24px;
+          font-size: 16px;
+          color: #000;
+          font-weight: bold; }
+        .box .boxCommon .choose-pop .top .confirm {
+          width: 96px;
+          height: 34px;
+          font-size: 16px;
+          color: #fff;
+          text-align: center;
+          line-height: 34px;
+          font-weight: bold;
+          cursor: pointer;
+          margin-right: 23px;
+          margin-top: 7px;
+          background: #fc340e; }
+        .box .boxCommon .choose-pop .top .cancel {
+          width: 96px;
+          height: 34px;
+          font-size: 16px;
+          color: #fff;
+          text-align: center;
+          line-height: 34px;
+          font-weight: bold;
+          cursor: pointer;
+          margin-right: 35px;
+          margin-top: 7px;
+          background: #ccc; }
+      .box .boxCommon .choose-pop .bottom {
+        width: 100%;
+        border: 1px solid #ddd;
+        margin: 0 auto;
+        border-top: none; }
+        .box .boxCommon .choose-pop .bottom .leftChoose {
+          width: 500px;
+          padding-bottom: 20px; }
+          .box .boxCommon .choose-pop .bottom .leftChoose .chooseCommon {
+            width: 100%;
+            height: 72px;
+            padding-top: 17px; }
+            .box .boxCommon .choose-pop .bottom .leftChoose .chooseCommon .choosename {
+              font-size: 16px;
+              color: #333;
+              text-indent: 24px;
+              margin-bottom: 6px; }
+            .box .boxCommon .choose-pop .bottom .leftChoose .chooseCommon .option {
+              width: 104px;
+              font-size: 14px; }
+              .box .boxCommon .choose-pop .bottom .leftChoose .chooseCommon .option .optionType {
+                color: #333; }
+              .box .boxCommon .choose-pop .bottom .leftChoose .chooseCommon .option .square {
+                margin-right: 4px; }
+        .box .boxCommon .choose-pop .bottom .rightChoose {
+          width: 502px; }
+  .box .boxCommon:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=jurisdiction.css.map */

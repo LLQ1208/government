@@ -1,0 +1,100 @@
+body,html{width:100%; height:100%; min-height: 700px;}
+.course{width: 100%; height: 100%; min-height: 700px; min-width: 1257px; position: relative; background:url(../images/courseBanner.jpg) no-repeat center top; background-size: cover; -ms-behavior: url(css/backgroundsize.min.htc); behavior: url(css/backgroundsize.min.htc);}
+.course .header{width: 100%;  height: 52px; line-height: 50px;}
+.littleLogo{width: 143px; height: 39px;  margin-left: 25px; margin-top: 6px;}
+.littleLogo img{width: 100%; height: 100%; vertical-align: middle;}
+.course .header .nav{min-width: 200px; height: 50px;}
+.course .header .nav li{float: left;}
+/*日历开始*/
+.zx-calender-square {
+	width: 850px;
+	height: 552px;
+	background: url(../images/calenderBg.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	margin-left: -425px;
+	top: 45%;
+	margin-top: -220px;
+	color: #fff;
+}
+.zx-calender-square .md_panel {
+  display: block;
+  zoom: 1;
+  font-size: 18px;
+}
+.zx-calender-square .md_panel:after,
+.zx-calender-square .md_weekarea:after,
+.zx-calender-square .md_datearea:after
+ {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.zx-calender-square .md_panel .md_head {
+  height: 76px;
+  line-height: 76px;
+  font-size: 22px; 
+  font-weight: bold;
+  padding-left: 600px;
+  margin-top: 12px;
+}
+.zx-calender-square .md_panel .md_head span {
+  display: block;
+  float: left;
+}
+.zx-calender-square .md_panel .md_head span.disabled {
+  color: #C6C6C6;
+}
+.zx-calender-square .md_panel .md_head .iconfont {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.zx-calender-square .md_panel .md_head .md_headtext {
+  width: 142px;
+  text-align: center;
+}
+.zx-calender-square .md_panel .md_body li {
+  box-sizing: border-box;
+  width: 14.28%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+.zx-calender-square .md_panel .prevdate,
+.zx-calender-square .md_panel .nextdate {
+  color: #CCCCCC;
+}
+.zx-calender-square .md_panel .current {
+  background-color: #b9a016;
+  color: #FFF;
+  border-radius: 4px;
+}
+.zx-calender-square .md_panel .edit {
+  background-color: #257735;
+  color: #FFF;
+  border-radius: 4px;
+}
+.zx-calender-square .md_panel .today {
+  background-color: #b9a016;
+  color: #FFF;
+  border-radius: 4px;
+}
+.zx-calender-square .md_panel .disabled {
+  color: #C6C6C6;
+}
+.md_weekarea{margin-bottom: 18px;}
+.tips{
+	color: #ff3823;
+	font-style: normal;
+	display: block;
+    font-size: 14px;
+    margin-top: -38px;
+}

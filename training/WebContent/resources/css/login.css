@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+/*登录页样式*/
+body,html{width:100%; height:100%; min-height: 700px;}
+.banner{width: 100%; height: 100%; min-height: 700px; padding-top: 8%; background:url(../images/loginBanner.png) no-repeat center top; background-size: cover; -ms-behavior: url(css/backgroundsize.min.htc); behavior: url(css/backgroundsize.min.htc);}
+.logo{width: 147px; height: 95px; margin: 0 auto;}
+.logo img{width: 100%; height: 100%;}
+.loginBox{width: 600px; height: 400px; background-color: #fff; margin: 38px auto 0;}
+.loginBox .title{font-size: 24px; color: #323232; width: 100%; line-height: 40px; padding: 55px 0 10px; text-align: center;}
+.loginBox .inputBox{width: 336px; height: 106px; border: 6px solid #f0f0f0; border-radius: 10px; overflow: hidden; margin: 0 auto; padding: 0 8px; box-sizing:border-box;}
+.inputBox li{width:100%; height: 45px; line-height: 45px;}
+.inputBox li.firstLine{height: 47px; border-bottom: 2px solid #e5e5e5;}
+.inputBox li.firstLine input{background: url(../images/user.png) no-repeat 10px 15px;}
+.inputBox li.secondLine input{background: url(../images/lock-open.png) no-repeat 11px 15px;}
+.inputBox li input{width: 100%; height: 45px; line-height: 45px; outline: none; color: #bfbfbf; border: 0; font-family: "微软雅黑";font-size: 14px; text-indent: 40px;}
+.loginBox .code{height: 35px; line-height: 35px; color: #999; padding-left: 133px;}
+.loginBox .code input{margin-right: 8px; vertical-align: -2px;}
+.loginBtn{width: 364px; height: 71px; margin: 0 auto; cursor: pointer;}
+.loginBtn img{width: 100%; height: 100%;}
+/*首页样式*/
+.index{width: 100%; height: 100%; min-height: 700px; min-width: 1257px; background:url(../images/indexBanner.png) no-repeat center top; background-size: cover; -ms-behavior: url(css/backgroundsize.min.htc); behavior: url(css/backgroundsize.min.htc);}
+.index .header{width: 100%;  height: 52px; line-height: 50px;}
+.littleLogo{width: 143px; height: 39px;  margin-left: 25px; margin-top: 6px;}
+.littleLogo img{width: 100%; height: 100%; vertical-align: middle;}
+.index .header .nav{min-width: 200px; height: 50px;}
+.index .header .nav li{float: left;}
+.indexLogo{width: 170px; height: 110px; margin: 8% auto 0;}
+.indexLogo img{width: 100%; height: 100%;}
+.index .name{width: 90%; height: 105px; margin: 72px auto 85px;font-size:100px;color:#ffffff;padding-top:40px;}
+.index .name img{width: 100%; height: 100%;}
+.index .phone{width: 176px; height: 44px; border: 1px solid #a3a3a5; text-align: center; line-height: 44px; margin: 0 auto; color: #ababac; font-size: 18px; font-family: "Arial";}
+.index .email{width: 100%; height: 60px; line-height: 60px; text-align: center; color: #ababac; font-size: 18px; font-family: "Arial";}
+.index .address{font-family: "微软雅黑"; font-size: 14px; text-align: center; color: #ababac;}
+.login-status{padding-bottom:10px;color:#E70101;}

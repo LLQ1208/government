@@ -1,0 +1,60 @@
+﻿{
+    "count": "(M/F):7/3",
+    "female": [
+        {
+            "ico": "http://101.201.111.130/images/logos/1507868192899.jpg",
+            "name": "自由",
+            "signin": "1",
+            "sourceDetail": [
+                {
+                    "contenId": "12",
+                    "contenState": 1,
+                    "contentName": "Gymnastics",
+		    "contentType":1,
+                    "isRx+": 1
+                },
+                {
+                    "contenId": "12",
+                    "contenState": 1,
+                    "contentName": "Weightlifting",
+		     "contentType":1,
+                    "isRx+": 1
+                },
+                {
+                    "contenId": "12",
+                    "contenState": 0,
+                    "contentName": "metcon",
+		    "contentType":1,
+                    "isRx+": 0
+                }
+            ]
+        }
+    ],
+    "male": [
+        {
+            "ico": "http://101.201.111.130/images/logos/1507868192899.jpg",
+            "name": "自由1",
+            "signin": "1",
+            "sourceDetail": [
+                {
+                    "contenId": "12",
+                    "contenState": 1,
+                    "contentName": "Gymnastics",
+                    "isRx+": 1
+                },
+                {
+                    "contenId": "12",
+                    "contenState": 1,
+                    "contentName": "Weightlifting",
+                    "isRx+": 1
+                },
+                {
+                    "contenId": "12",
+                    "contenState": 0,
+                    "contentName": "metcon",
+                    "isRx+": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 0; }
+
+.add-employee .info-box {
+  width: 760px;
+  height: auto;
+  padding-top: 50px;
+  box-sizing: border-box;
+  margin: 0 auto; }
+  .add-employee .info-box .info-top {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px; }
+    .add-employee .info-box .info-top .top-left {
+      width: 390px;
+      height: auto; }
+      .add-employee .info-box .info-top .top-left .img-block {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        position: relative; }
+        .add-employee .info-box .info-top .top-left .img-block img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%; }
+        .add-employee .info-box .info-top .top-left .img-block input {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          opacity: 0;
+          filter: alpha(opacity=0);
+          position: absolute;
+          top: 0;
+          left: 0; }
+      .add-employee .info-box .info-top .top-left .sexual {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+        color: #666;
+        margin: 20px 0 30px 0; }
+        .add-employee .info-box .info-top .top-left .sexual label {
+          margin: 0 8px 0 4px; }
+      .add-employee .info-box .info-top .top-left .birth {
+        width: 100%;
+        height: auto;
+        text-align: center; }
+        .add-employee .info-box .info-top .top-left .birth .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+          width: 80px; }
+        .add-employee .info-box .info-top .top-left .birth .birth-text {
+          width: 137px;
+          text-align: left;
+          margin: 0 auto;
+          font-size: 11px;
+          color: #999; }
+    .add-employee .info-box .info-top .top-right {
+      width: 370px;
+      height: auto; }
+      .add-employee .info-box .info-top .top-right .detail {
+        width: 100%;
+        height: 42px;
+        margin-bottom: 18px; }
+        .add-employee .info-box .info-top .top-right .detail p {
+          width: 60px;
+          height: 36px;
+          line-height: 36px;
+          text-align: right;
+          margin-right: 30px; }
+        .add-employee .info-box .info-top .top-right .detail input {
+          width: 200px;
+          height: 36px;
+          padding: 0 10px;
+          box-sizing: border-box;
+          border: 1px solid #dfdfdf; }
+  .add-employee .info-box .info-remark {
+    width: 100%;
+    padding: 0 80px 0 75px;
+    box-sizing: border-box; }
+    .add-employee .info-box .info-remark p {
+      width: 60px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 16px;
+      color: #666; }
+    .add-employee .info-box .info-remark textarea {
+      width: 540px;
+      height: 200px;
+      line-height: 24px;
+      font-size: 14px;
+      color: #666;
+      border: 1px solid #dfdfdf;
+      box-sizing: border-box;
+      border-radius: 6px;
+      resize: none;
+      padding: 10px 16px; }
+  .add-employee .info-box .info-btn {
+    width: 100%;
+    height: auto;
+    padding: 0 80px 0 75px;
+    box-sizing: border-box;
+    margin-top: 30px; }
+    .add-employee .info-box .info-btn a {
+      width: 80px;
+      height: 36px;
+      text-align: center;
+      line-height: 36px;
+      border-radius: 6px; }
+    .add-employee .info-box .info-btn .delete-btn {
+      background: #ec971f;
+      color: #fff;
+      margin-left: 60px;
+      display: none; }
+    .add-employee .info-box .info-btn .save-btn {
+      background: #0088cc;
+      color: #fff;
+      margin-left: 12px; }
+    .add-employee .info-box .info-btn .cancel-btn {
+      border: 1px solid #dfdfdf;
+      box-sizing: border-box;
+      color: #666; }
+
+/*# sourceMappingURL=employee-add.css.map */

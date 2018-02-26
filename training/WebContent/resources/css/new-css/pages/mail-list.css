@@ -1,0 +1,65 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+p {
+  margin-bottom: 0; }
+
+.mail-list .add-block {
+  width: 100%;
+  height: 48px;
+  background: #eee; }
+  .mail-list .add-block .add-btn {
+    width: 96px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    background: #ff350e; }
+  .mail-list .add-block .add-btn:hover {
+    text-decoration: none; }
+.mail-list .mail-list-box {
+  width: 100%;
+  height: auto;
+  padding: 30px 36px;
+  box-sizing: border-box; }
+  .mail-list .mail-list-box .head-block {
+    width: 100%;
+    height: 42px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box; }
+    .mail-list .mail-list-box .head-block p {
+      height: 42px;
+      line-height: 42px;
+      font-size: 14px;
+      color: #000;
+      font-weight: bold; }
+  .mail-list .mail-list-box .mail-list-block {
+    width: 100%;
+    height: auto; }
+    .mail-list .mail-list-box .mail-list-block li {
+      width: 100%;
+      height: 54px;
+      line-height: 54px;
+      border-bottom: 1px solid #ccc; }
+  .mail-list .mail-list-box .name {
+    width: 260px;
+    margin-right: 32px;
+    text-indent: 22px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;}
+  .mail-list .mail-list-box .time {
+    width: 272px;
+    margin-right: 216px;
+    text-align: center; }
+  .mail-list .mail-list-box .person {
+    width: 216px;
+    text-align: center; }
+
+/*# sourceMappingURL=mail-list.css.map */

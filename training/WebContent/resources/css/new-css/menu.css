@@ -1,0 +1,198 @@
+.leftBar {
+  width: 206px;
+  height: 100%;
+  min-height: 768px;
+  overflow-y: auto;
+  background: #fff; }
+  .leftBar .logo {
+    width: 188px;
+    height: 72px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+    background: url("../../images/new-image/index/logo_02.png");
+    -webkit-background-size: cover;
+    background-size: cover; }
+  .leftBar .user {
+    width: 201px;
+    height: 72px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    display: flex; }
+    .leftBar .user .userHead {
+      width: 42px;
+      height: 42px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      margin: 16px 0 0 16px;
+      background: url("../../images/new-image/no_pic.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      display: block;
+      cursor: pointer;}
+    .leftBar .user .userHead-no {
+      width: 42px;
+      height: 42px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      margin: 16px 0 0 16px;
+      -webkit-background-size: cover;
+      background-size: cover;
+      display: block;
+      cursor: pointer;}
+    .leftBar .user .userName {
+      font-size: 16px;
+      color: #000;
+      width: 108px;
+      margin-left: 7px;
+      margin-top: 30px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;}
+    .leftBar .user .downIcon {
+      display: block;
+      width: 12px;
+      height: 7px;
+      background: url("../../images/new-image/index/down_03.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      transition: 0.3s all ease;
+      cursor: pointer;
+      margin-top: 36px; }
+    .leftBar .select-user .downIcon{
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+
+.list {
+  width: 100%;
+  margin-top: 27px; }
+  .list .listCommon {
+    width: 100%; }
+    .list .listCommon .listCommonTitle {
+      cursor: pointer;
+      height: 51px;
+      width: 100%; }
+      .list .listCommon .listCommonTitle .listCommonIcon {
+        display: block;
+        width: 21px;
+        height: 20px;
+        background: url("../../images/new-image/index/WOD_03.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-left: 19px;
+        margin-top: 16px; }
+      .list .listCommon .listCommonTitle .memberIcon {
+        background: url("../../images/new-image/index/member_07.png");
+        -webkit-background-size: cover;
+        background-size: cover; }
+      .list .listCommon .listCommonTitle .orderIcon {
+        background: url("../../images/new-image/index/order.png");
+        -webkit-background-size: cover;
+        background-size: cover; }
+      .list .listCommon .listCommonTitle .classIcon {
+        background: url("../../images/new-image/index/class.png");
+        -webkit-background-size: cover;
+        background-size: cover; }
+      .list .listCommon .listCommonTitle .oprationIcon {
+        background: url("../../images/new-image/index/operate_16.png");
+        -webkit-background-size: cover;
+        background-size: cover; }
+      .list .listCommon .listCommonTitle .emailIcon {
+        background: url("../../images/new-image/index/email_20.png");
+        -webkit-background-size: cover;
+        background-size: cover; }
+      .list .listCommon .listCommonTitle .priceIcon {
+        background: url("../../images/new-image/index/price_23.png");
+        -webkit-background-size: cover;
+        background-size: cover; }
+      .list .listCommon .listCommonTitle .setIcon {
+        background: url("../../images/new-image/index/set_26.png");
+        -webkit-background-size: cover;
+        background-size: cover; }
+      .list .listCommon .listCommonTitle .exitIcon {
+        background: url("../../images/new-image/index/exit.png");
+        -webkit-background-size: cover;
+        background-size: cover; }
+
+      .list .listCommon .listCommonTitle .titleName {
+        width: 126px;
+        margin-left: 7px;
+        font-size: 16px;
+        color: #000;
+        margin-top: 16px; }
+      .list .listCommon .listCommonTitle .commonDownIcon {
+        width: 12px;
+        height: 7px;
+        display: block;
+        background: url("../../images/new-image/index/down_03.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        transition: 0.3s all ease;
+        margin-top: 24px; }
+    .list .listCommon .listCommonTitle.active .commonDownIcon {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg); }
+    .list .listCommon .listCommonDetail {
+      width: 100%;
+      display: none; }
+      .list .listCommon .listCommonDetail .changeSrc {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        color: #000;
+        font-size: 14px;
+        text-indent: 47px;
+        cursor: pointer; }
+      .list .listCommon .listCommonDetail .changeSrc.active {
+        color: #ff350e; }
+  .choose{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    background: #fff;
+    z-index: 9;
+    display: none;
+  }
+  .choose li{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    border-bottom: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+.choose li.current{
+  color: #fc340e;
+}
+
+.photo-img {
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  /* background: url(../../../images/new-image/coachBack/headIcon_03.png); */
+  /* -webkit-background-size: cover; */
+  /* background-size: cover; */
+  vertical-align: middle;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-top: 14px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=menu.css.map */

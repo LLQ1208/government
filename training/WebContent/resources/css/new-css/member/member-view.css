@@ -1,0 +1,251 @@
+.content-box {
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+.member-view {
+  padding-bottom: 50px; }
+  .member-view .renewal {
+    width: 100%;
+    height: 48px;
+    background: #eee;
+    float: right; }
+    .member-view .renewal .renewal-btn {
+      width: 96px;
+      height: 34px;
+      text-align: center;
+      line-height: 34px;
+      font-size: 16px;
+      color: #fff;
+      background: #ff350e; }
+    .member-view .renewal .renewal-btn:hover {
+      text-decoration: none; }
+  .member-view .head {
+    width: 100%;
+    height: 280px;
+    background: #fff;
+    margin-top: 48px;
+    border-bottom: 10px solid #eee; }
+    .member-view .head .headcont {
+      width: 100%;
+      height: 200px; }
+      .member-view .head .headcont .left {
+        width: 122px;
+        margin-left: 58px;
+        position: relative; }
+        .member-view .head .headcont .left input {
+          width: 74px;
+          height: 25px;
+          position: absolute;
+          top: 166px;
+          left: 24px;
+          opacity: 0;
+          filter: alpha(opacify=0); }
+        .member-view .head .headcont .left .pic {
+          width: 100%;
+          height: 122px;
+          margin-top: 24px;
+         //background: url("../../images/temp/temp.jpg");
+          -webkit-background-size: cover;
+          background-size: cover; }
+        .member-view .head .headcont .left .changpic {
+          width: 74px;
+          height: 25px;
+          line-height: 25px;
+          text-align: center;
+          margin: 20px auto 0;
+          font-size: 14px;
+          color: #fff;
+          background: #ff350e; }
+      .member-view .head .headcont .right {
+        width: 600px;
+        height: 200px;
+        margin-left: 65px; }
+        .member-view .head .headcont .right p {
+          margin: 0 !important; }
+        .member-view .head .headcont .right .rewrite {
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          background: url("../../../images/new-image/member/icon_edit.png") no-repeat;
+          background-size: 100%;
+          vertical-align: middle;
+          margin-left: 5px;
+          margin-right: 46px;
+          cursor: pointer; }
+        .member-view .head .headcont .right .one {
+          width: 100%;
+          height: 42px;
+          line-height: 42px;
+          margin-top: 24px;
+          font-size: 20px;
+          color: #000; }
+          .member-view .head .headcont .right .one p {
+            float: left; }
+            .member-view .head .headcont .right .one p input {
+              display: none;
+              border: 1px solid #dfdfdf;
+              box-sizing: border-box;
+              margin-right: 30px;
+              height: 40px;
+              line-height: 40px; }
+        .member-view .head .headcont .right .commonp {
+          height: 34px;
+          line-height: 34px;
+          font-size: 14px;
+          color: #999; }
+          .member-view .head .headcont .right .commonp input {
+            width: 200px;
+            height: 30px;
+            line-height: 30px;
+            display: none;
+            border: 1px solid #dfdfdf;
+            box-sizing: border-box; }
+        .member-view .head .headcont .right .pone {
+          color: #000; }
+    .member-view .head .edit {
+      width: 434px;
+      height: 50px;
+      border: 1px solid #ddd;
+      -webkit-border-radius: 1px;
+      -moz-border-radius: 1px;
+      border-radius: 1px;
+      margin-left: 68px;
+      margin-top: 10px; }
+      .member-view .head .edit textarea {
+        width: 100%;
+        height: 100%;
+        resize: none;
+        line-height: 25px;
+        outline: none;
+        padding: 0 10px; }
+  .member-view .cont {
+    width: 100%;
+    height: auto;
+    background: #fff; }
+    .member-view .cont .option {
+      width: 100%;
+      height: 63px;
+      padding:0 36px;
+      box-sizing: border-box; }
+      .member-view .cont .option .cards {
+        width: 124px;
+        height: 23px;
+        margin-top: 20px;
+        border: 1px solid #ff350e; }
+        .member-view .cont .option .cards .cardsopt {
+          display: inline-block;
+          width: 48.4%;
+          height: 100%;
+          line-height: 23px;
+          background: #fff;
+          font-size: 14px;
+          text-align: center;
+          color: #ff350e;
+          cursor: pointer; }
+        .member-view .cont .option .cards .cardsopt.active {
+          background: #ff350e;
+          color: #fff; }
+      .member-view .cont .option .recode {
+        width: 214px;
+        margin-left: 60px;
+        height: 36px;
+        margin-top: 13px; }
+        .member-view .cont .option .recode .recodeopt {
+          width: 48%;
+          text-align: center;
+          height: 36px;
+          line-height: 36px;
+          color: #999999;
+          font-size: 16px;
+          display: inline-block;
+          cursor: pointer; }
+        .member-view .cont .option .recode .recodeopt.active {
+          color: #000;
+          border-bottom: 1px solid #000; }
+    .member-view .cont .detail {
+      width: 100%; }
+      .member-view .cont .detail .title {
+        margin-left: 36px;
+        height: 44px;
+        border-bottom: 1px solid #ddd;
+        background: #f5f5f5; }
+        .member-view .cont .detail .title span {
+          display: inline-block;
+          width: 100px;
+          height: 44px;
+          line-height: 44px;
+          text-align: center;
+          font-size: 14px;
+          font-weight: bold;
+          color: #000;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;}
+      .member-view .cont .detail .common {
+        margin-left: 36px;
+        height: 44px;
+        border-bottom: 1px solid #ddd;
+        background: #fff; }
+        .member-view .cont .detail .common span {
+          display: inline-block;
+          width: 100px;
+          height: 44px;
+          line-height: 44px;
+          text-align: center;
+          font-size: 14px;
+          color: #000;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;}
+        .member-view .cont .detail .common span:last-child {
+          color: #ff350e;
+          cursor: pointer;
+          position: relative; }
+        .member-view .cont .detail .common span:nth-child(7) {
+          color: #ff350e;
+          cursor: pointer;
+          position: relative; }
+        .member-view .cont .detail .common span:nth-child(8) {
+          color: #ff350e;
+          cursor: pointer;
+          position: relative; }
+        .member-view .cont .detail .common .commondet {
+          width: 300px;
+          min-height: 98px;
+          height: auto;
+          border: 1px solid #ddd;
+          position: absolute;
+          left: -264px;
+          top: -80px;
+          z-index: 20;
+          background: #fff;
+          display: none; }
+          .member-view .cont .detail .common .commondet span {
+            margin: 3px 0 0 !important;
+            font-size: 14px;
+            color: #000;
+            text-indent: 13px;
+            display: block;
+            width: 100%;
+            height: 20px;
+            text-align: left; }
+    .member-view .cont .order-list {
+      display: none; }
+
+
+.member-view .cont .option .operator-card {
+  width: 70px;
+  height: 23px;
+  margin-top: 20px; }
+.member-view .cont .option .operator-card .card-span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 23px;
+  background: blue;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer; }
+/*# sourceMappingURL=member-view.css.map */

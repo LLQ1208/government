@@ -1,0 +1,66 @@
+
+body,html{
+  background: #eee;
+}
+.set-schedule{
+  width:1020px;
+  background: #fff;
+}
+.set-schedule{
+  width:1052px;
+  .main{
+    width:1052px;
+    background: #fff;
+    min-height:700px;
+    .common{
+      width:100%;
+      height:90px;
+      border-bottom:1px solid #ddd;
+      .left{
+        width:512px;
+        height:100%;
+        margin-left: 14px;
+        .one{
+          font-size:18px;
+          color: #333;
+          margin-top: 26px;
+        }
+        .two{
+          font-size:14px;
+          color: #999;
+        }
+      }
+      .right{
+        width:526px;
+        height:100%;
+        .time{
+          height:100%;
+          line-height:90px;
+          color: #333;
+          font-size:14px;
+          margin-left:186px;
+          .number{
+            width:60px;
+            height:34px;
+            border:1px solid #ddd;
+            text-align: center;
+          }
+
+        }
+        .editor{
+          width:96px;
+          height:34px;
+          line-height: 34px;
+          text-align: center;
+          font-size:16px;
+          color: #fff;
+          font-weight: bold;
+          background: #ff350e;
+          margin:28px 100px 0 0px;
+          cursor: pointer;
+          display: none;
+        }
+      }
+    }
+  }
+}

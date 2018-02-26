@@ -1,0 +1,201 @@
+body {
+  background: #fff;
+}
+p{
+  margin-bottom: 0;
+}
+
+.calendar {
+  width: 100%;
+  height: auto;
+  background: #eeeeee;
+  margin: 0 auto 50px;
+  .top-block {
+    width: 100%;
+    height: 84px;
+    background: #fff;
+    border: 1px solid #fdfdfd;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    .top-left-block {
+      width: 170px;
+      height: 100%;
+      .glyphicon {
+        width: 30px;
+        height: 84px;
+        text-align: right;
+        line-height: 84px;
+        cursor: pointer;
+      }
+      .back-today {
+        width: 100px;
+        height: 84px;
+        line-height: 84px;
+        text-align: center;
+        display: inline-block;
+        color: #999999;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+    .top-title {
+      width: 570px;
+      height: 84px;
+      text-align: center;
+      line-height: 84px;
+      font-size: 18px;
+      color: #333;
+    }
+    .top-right-block {
+      width: 310px;
+      height: 84px;
+      padding-left: 50px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      ul {
+        width: 100%;
+        height: 100%;
+        padding: 20px 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        li {
+          float: left;
+          width: 54px;
+          height: 44px;
+          text-align: right;
+          line-height: 44px;
+          margin-right: 10px;
+          font-size: 16px;
+          color: #999;
+          padding: 0 10px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          cursor: pointer;
+          position: relative;
+          span {
+            width: 54px;
+            height: 1px;
+            background: #fc340e;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            -webkit-transition: 0.2s all ease-out;
+            -moz-transition: 0.2s all ease-out;
+            -o-transition: 0.2s all ease-out;
+            transition: 0.2s all ease-out;
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+            -o-transform: scale(0);
+            transform: scale(0);
+          }
+        }
+        .active {
+          color: #fc340e;
+          span {
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -o-transform: scale(1);
+            transform: scale(1);
+          }
+        }
+      }
+    }
+  }
+  .select-block {
+    width: 100%;
+    height: 106px;
+    padding: 24px 0 0 36px;
+    background: #fff;
+    border: 1px solid #fdfdfd;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    .left-select {
+      width: 194px;
+      height: auto;
+      margin-right: 60px;
+      p {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        color: #888888;
+      }
+    }
+  }
+
+  .pop-box {
+    width: 320px;
+    min-height: 500px;
+    -webkit-box-shadow: 0 0 20px #666;
+    -moz-box-shadow: 0 0 20px #666;
+    box-shadow: 0 0 20px #666;
+    position: absolute;
+    top: 75px;
+    left: 160px;
+    background: #fff;
+    padding: 0 18px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000;
+    display: none;
+    .pop-title {
+      width: 100%;
+      height: 54px;
+      line-height: 54px;
+      margin-bottom: 6px;
+    }
+    .pop-block{
+      width: 100%;
+      height: auto;
+      .little-title{
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        color: #f54337;
+      }
+      .little-content{
+        width: 100%;
+        height:auto;
+        line-height: 20px;
+        padding: 0 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .del-content{
+        width:100%;
+        height:auto;
+        line-height:20px;
+        p{
+          width: 100%;
+          height:auto;
+          line-height:22px;
+        }
+        span{
+          width: 100%;
+          height:auto;
+          line-height: 22px;
+          display: inline-block;
+          color: #999999;
+        }
+      }
+    }
+  }
+}
+
+.bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 194px;
+}
+
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*=span] {
+  margin-bottom: 0;
+}

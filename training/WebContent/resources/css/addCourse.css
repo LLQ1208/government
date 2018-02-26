@@ -1,0 +1,45 @@
+/*导航*/
+.editTop{width: 100%; min-width: 1257px; height: 60px; border-bottom: 1px solid #eeeeee; background: url(../images/courseBg.jpg) no-repeat; background-size: cover; -ms-behavior: url(css/backgroundsize.min.htc); behavior: url(css/backgroundsize.min.htc);}
+.editTop .header{width: 100%;  height: 52px; line-height: 50px;}
+.editTop .littleLogo{width: 143px; height: 39px;  margin-left: 25px; margin-top: 6px;}
+.littleLogo img{width: 100%; height: 100%;}
+.header .nav{min-width: 200px; height: 50px;}
+.header .nav li{float: left;}
+.nav li a:hover{background: none;}
+/*内容开始*/
+.content{width: 650px; height: auto; margin: 64px auto 0;}
+.content .item{margin-bottom: 20px;}
+.content .item .caption{width: 360px; height: 48px; line-height: 48px; border: 1px solid #e2e2e2; border-radius: 4px; font-size: 18px; font-weight: bold; margin-right: 20px; text-indent: 20px;}
+.content .item .publish{float: left; width: 110px; height: 48px; line-height: 48px; font-size: 18px;}
+.content .item .coach{float: left; width: 72px; height: 48px; line-height: 48px; font-size: 18px;}
+/* .selects1,.selects2{float: left;} */
+.selects1 .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) { width: 130px;}
+.selects2 .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) { width: 180px;}
+.selects1 .bootstrap-select{width: 130px;}
+.selects2 .bootstrap-select{width: 180px;}
+.dropdown-menu>li>a{line-height: 32px;}
+.bootstrap-select.btn-group .btn .filter-option{line-height: 32px;}
+.content .item .details{width: 560px; height: 120px; border: 1px solid #e2e2e2; border-radius: 4px; font-size: 18px; padding-top: 10px; padding-left: 20px; line-height: 24px; overflow: hidden;}
+.content .btns{width: 100%; text-align: center; margin: 15px 0 40px 0;}
+.content .btns .hold{width: 64px; height: 34px; line-height: 34px; background: #ff4c39; color: #fff; margin-right: 10px; display: inline-block; border-radius: 4px; cursor: pointer;}
+.content .btns .cancel{width: 64px; height: 34px; line-height: 34px; border:1px solid #ccc; color: #333; display: inline-block; border-radius: 4px; cursor: pointer;}
+/*添加课程展示页*/
+.item .former{width: 360px; height: 48px; line-height: 48px; font-size: 18px; font-weight: bold; padding-left: 20px; margin-right: 25px; border-radius: 4px; background-color: #f0f0f0; color: #ff3823;}
+.item .pubTime{line-height: 48px; color: #ff3823;}
+.item .useTime{font-size: 18px; line-height: 48px; color: #666;}
+.item .useTime img{vertical-align: -5px; margin-right: 5px;}
+.brief{width: 560px; height: auto; background-color: #f0f0f0; font-size: 18px; padding-top: 14px; padding-left: 20px; line-height: 24px; border-radius: 4px; color: #666; padding-bottom: 14px;}
+.remove-item{margin-top:80px;}
+.plan-date{font-size:18px;}
+.tip{color:#ff0000;margin-bottom:20px;margin-top:-10px;}
+.content .item .remark {
+    width: 560px;
+    height: 100px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 24px;
+    overflow: hidden;
+}

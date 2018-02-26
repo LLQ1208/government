@@ -1,0 +1,494 @@
+p {
+  margin-bottom: 0; }
+.content-box{
+  width: 1324px;
+  min-height: 768px;
+  margin: 0 auto;
+}
+.order {
+  width: 100%;
+  height: auto; }
+  .order .filter-box {
+    width: 100%;
+    height: 131px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin-bottom: 32px; }
+    .order .filter-box .date-box {
+      width: 100%;
+      height: 64px;
+      padding: 18px 0;
+      box-sizing: border-box;
+      margin-bottom: 5px; }
+      .order .filter-box .date-box input {
+        width: 100px;
+        height: 100%;
+        line-height: 28px;
+        font-size: 16px;
+        color: #333;
+        cursor: pointer;}
+    .order .filter-box .select-box {
+      width: 100%;
+      height: auto;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .order .filter-box .select-box .one-filter {
+        width: 182px;
+        height: auto;
+        line-height: 34px;
+        margin-right: 60px; }
+        .order .filter-box .select-box .one-filter .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+          width: 182px;
+          margin-bottom: 0; }
+        .order .filter-box .select-box .one-filter .one-title {
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          font-size: 14px;
+          color: #888888; }
+  .order .member-box {
+    width: 100%;
+    height: auto;
+    padding: 0 24px;
+    box-sizing: border-box; }
+    .order .member-box .mr {
+      margin-right: 44px; }
+    .order .member-box ul li {
+      width: 480px;
+      height: auto;
+      margin-bottom: 20px; }
+      .order .member-box ul li .left-block {
+        width: 182px;
+        height: 86px;
+        border: 1px solid #ccc;
+        padding: 13px 0 0 13px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative; }
+        .order .member-box ul li .left-block img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          margin-right: 18px; }
+        .order .member-box ul li .left-block .name-block {
+          width: 80px;
+          height: auto;
+          font-size: 16px; }
+          .order .member-box ul li .left-block .name-block p {
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            margin-bottom: 20px;
+            color: #333; }
+          .order .member-box ul li .left-block .name-block span {
+            display: block;
+            width: 60px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 14px;
+            color: #fff; }
+          .order .member-box ul li .left-block .name-block .sign {
+            background: #ec971f; }
+        .order .member-box ul li .left-block .other {
+          width: 24px;
+          height: 24px;
+          text-align: center;
+          line-height: 24px;
+          background: #EEA1FB;
+          color: #fff;
+          position: absolute;
+          top: -12px;
+          right: -12px;
+          border-radius: 50%; }
+      .order .member-box ul li .center-block {
+        width: 298px;
+        height: auto;
+        padding-left: 7px;
+        padding-top: 8px;
+        box-sizing: border-box; }
+        .order .member-box ul li .center-block .rx-line {
+          width: 100%;
+          height: 28px;
+          margin-bottom: 12px; }
+          .order .member-box ul li .center-block .rx-line span {
+            padding: 0 4px;
+            height: 28px;
+            line-height: 28px;
+            font-size: 14px;
+            color: #fff;
+            display: inline-block;
+            margin-right: 3px;
+            border-radius: 4px;
+            }
+          .order .member-box ul li .center-block .rx-line .status {
+            background: #EC97A5; }
+          .order .member-box ul li .center-block .rx-line .chart-box {
+            width: 20px;
+            height: 20px;
+            margin-top: 4px;
+            margin-right: 4px; }
+            .order .member-box ul li .center-block .rx-line .chart-box img {
+              width: 20px;
+              height: 20px;
+              cursor: pointer; }
+          .order .member-box ul li .center-block .rx-line .score {
+            width: 200px;
+            height: 28px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 26px;
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;}
+  .order .pop {
+    width: 526px;
+    height: 600px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -268px;
+    display: none; }
+    .order .pop .close {
+      width: 16px;
+      height: 16px;
+      background: url("../../../images/new-image/training/icon_close1.png") no-repeat;
+      background-size: 100%;
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+    .order .pop .pop-title {
+      width: 100%;
+      height: auto;
+      margin-bottom: 12px; }
+      .order .pop .pop-title p {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+        color: #333; }
+    .order .pop .history-block {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px; }
+      .order .pop .history-block .history-title {
+        width: 100%;
+        height: 38px; }
+        .order .pop .history-block .history-title p {
+          width: 100px;
+          height: 38px;
+          line-height: 38px;
+          font-size: 16px;
+          color: #fc340e; }
+        .order .pop .history-block .history-title span {
+          width: 106px;
+          height: 38px;
+          line-height: 38px;
+          text-align: right;
+          font-size: 14px;
+          color: #666666; }
+      .order .pop .history-block .table-box {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        border-top: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box; }
+        .order .pop .history-block .table-box .table-head {
+          width: 100%;
+          height: 32px;
+          line-height: 32px;
+          color: #333;
+          text-align: center;
+          background: #eee; }
+        .order .pop .history-block .table-box p {
+          height: 100%;
+          text-align: center;
+          border-right: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+        .order .pop .history-block .table-box .date {
+          width: 110px; }
+        .order .pop .history-block .table-box .result {
+          width: 158px; }
+        .order .pop .history-block .table-box .remark {
+          width: 198px; }
+        .order .pop .history-block .table-box ul {
+          width: 100%;
+          height: auto; }
+          .order .pop .history-block .table-box ul li {
+            width: 100%;
+            height: 30px; }
+            .order .pop .history-block .table-box ul li p {
+              line-height: 30px; }
+      .order .pop .history-block .page-box {
+        width: 100%;
+        height: 20px;
+        text-align: center; }
+        .order .pop .history-block .page-box .page {
+          display: inline-block;
+          height: 20px; }
+          .order .pop .history-block .page-box .page li {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            color: #666;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer; }
+          .order .pop .history-block .page-box .page .active {
+            background: #eee; }
+    .order .pop .two {
+      width: 100%;
+      height: auto; }
+      .order .pop .two .two-title {
+        width: 100%;
+        height: 38px;
+        line-height: 38px;
+        font-size: 16px;
+        color: #fc340e; }
+      .order .pop .two .person-table {
+        width: 100%;
+        height: auto;
+        border-top: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box; }
+        .order .pop .two .person-table .person-data {
+          width: 33.3%;
+          height: auto; }
+          .order .pop .two .person-table .person-data p {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14px;
+            color: #666;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box; }
+          .order .pop .two .person-table .person-data .person-key {
+            background: #eee; }
+      .order .pop .two .percent-table {
+        width: 100%;
+        height: auto;
+        border-top: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box; }
+        .order .pop .two .percent-table ul {
+          width: 100%;
+          height: auto; }
+          .order .pop .two .percent-table ul li {
+            float: left;
+            width: 33.3%;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14px;
+            color: #666;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box; }
+  .order .weight-pop {
+    height: 596px;
+    margin-top: -300px; }
+  .order .add {
+    width: 320px;
+    height: 280px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #ccc;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -210px;
+    margin-top: -140px;
+    display: none; }
+    .order .add .record {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin-bottom: 10px; }
+      .order .add .record .title-line {
+        width: 100%;
+        height: 24px;
+        line-height: 24px;
+        font-size: 14px;
+        color: #666; }
+      .order .add .record input {
+        width: 68px;
+        height: 36px;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #eee;
+        color: #666;
+        font-size: 14px;
+        line-height: 16px; }
+      .order .add .record .input-box {
+        width: 100%;
+        height: auto; }
+        .order .add .record .input-box .one-block {
+          width: 58px;
+          height: auto; }
+          .order .add .record .input-box .one-block p {
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            font-size: 12px;
+            color: #666; }
+          .order .add .record .input-box .one-block input {
+            width: 100%;
+            height: 32px; }
+        .order .add .record .input-box .and {
+          width: 16px;
+          height: 100%;
+          text-align: center;
+          padding-top: 25px; }
+        .order .add .record .input-box .unit-box {
+          width: 58px;
+          padding-top: 19px;
+          box-sizing: border-box;
+          margin-left: 12px; }
+          .order .add .record .input-box .unit-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+            width: 100%;
+            margin-bottom: 0; }
+        .order .add .record .input-box .rx-box {
+          max-width: 200px;
+          height: auto;
+          padding-top: 19px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: 10px; }
+          .order .add .record .input-box .rx-box span {
+            padding: 0 8px;
+            height: 36px;
+            line-height: 36px;
+            color: #fff;
+            font-size: 14px;
+            margin-right: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+          }
+      .order .add .record .each {
+        width: 100%;
+        height: auto; }
+        .order .add .record .each ul li {
+          width: 100%;
+          height: 32px;
+          margin-bottom: 6px;
+          font-size: 14px;
+          color: #666; }
+          .order .add .record .each ul li p {
+            width: 16px;
+            height: 100%;
+            text-align: center;
+            line-height: 32px; }
+          .order .add .record .each ul li input {
+            height: 32px; }
+          .order .add .record .each ul li .title-left {
+            width: 60px;
+            margin-right: 10px; }
+          .order .add .record .each ul li .title-center {
+            width: 80px;
+            margin-right: 10px; }
+          .order .add .record .each ul li .title-right {
+            width: 100px;
+            margin-right: 10px; }
+    .order .add .remark {
+      width: 100%;
+      height: auto;
+      position: relative; }
+      .order .add .remark .title-line {
+        width: 100%;
+        height: 24px;
+        line-height: 24px;
+        font-size: 14px;
+        color: #666; }
+      .order .add .remark textarea {
+        width: 100%;
+        height: 84px;
+        resize: none;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #666;
+        background: #eee; }
+    .order .add .btn-box {
+      width: 100%;
+      height: 30px;
+      margin-top: 16px; }
+      .order .add .btn-box span {
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+        border-radius: 6px; }
+      .order .add .btn-box .cancel-btn {
+        color: #666;
+        background: #ccc;
+        cursor: pointer;
+      }
+      .order .add .btn-box .save-btn {
+        background: #0088cc;
+        color: #ffffff;
+        cursor: pointer;
+      }
+  .order .weight {
+    height: 340px; }
+  .order .each-round {
+    height: 500px;
+    margin-top: -285px;
+    overflow-y: auto;}
+    .order .each-round .record .input-box .unit-box {
+      padding-top: 0; }
+      .order .each-round .record .input-box .unit-box .bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        width: 88px; }
+
+.weight-pop .history-block .page-box {
+  height: auto !important; }
+  .weight-pop .history-block .page-box .page {
+    display: initial !important;
+    height: auto !important; }
+
+.pagination {
+  margin: 0; }
+
+.pagination > li > a, .pagination > li > span {
+  padding: 2px 8px;
+  font-size: 12px; }
+
+/*# sourceMappingURL=order-list.css.map */

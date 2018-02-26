@@ -1,0 +1,429 @@
+html, body {
+  background: #000;
+  width: 100%;
+  padding-bottom: 40px; }
+
+
+.box .nav {
+  width: 100%;
+  height: 116px;
+  min-width: 1440px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 20; }
+.box .nav .top {
+  width: 100%;
+  height: 74px; }
+.box .nav .top .left {
+  min-width: 270px;
+  height: 74px;
+  background: #000;
+  margin-left: 80px; }
+.box .nav .top .left .user {
+    min-width: 50%;
+    height: 100%;
+    margin-right: 6px; }
+.box .nav .top .left .user .photo {
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  /*background: url("../../../images/new-image/coachBack/headIcon_03.png");*/
+  /*-webkit-background-size: cover;*/
+  /*background-size: cover;*/
+  vertical-align: middle;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  margin-left: 15px;
+    margin-top: 14px;
+    margin-right: 6px;}
+.box .nav .top .left .user .name {
+  height: 74px;
+  line-height: 74px;
+  color: #fff;
+  font-size: 16px;
+  display: inline-block; }
+.box .nav .top .left .choose {
+  width: 110px;
+  height: 34px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #000;
+  margin-right: 14px;
+  margin-top: 22px;
+}
+.box .nav .top .right {
+  margin-right: 68px;
+  height: 74px;
+  font-size: 16px;
+  line-height: 74px;
+  color: #fc340e;
+  cursor: pointer; }
+.box .nav .bottom {
+  width: 100%;
+  margin-top: 6px;
+  min-width: 600px;
+  height: 34px;
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
+  background: #111; }
+.box .nav .bottom .list {
+  width: 900px;
+  margin: 0 auto; }
+.box .nav .bottom .list .listCommon {
+  width: 180px;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  cursor: pointer; }
+.box .nav .bottom .list .active {
+  background: #fc340e; }
+
+.box {
+  width: 1440px;
+  margin: 52px auto 0; }
+  .box .wodLeft {
+    width: 204px;
+    height: 304px;
+    background: #000;
+    margin-left: 80px;
+    margin-top: 80px; }
+    .box .wodLeft p {
+      width: 167px;
+      height: 36px !important;
+      font-size: 14px;
+      text-align: center;
+      color: #fff;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      border: 1px solid #666;
+      line-height: 36px !important;
+      cursor: pointer; }
+    .box .wodLeft p:nth-child(4) {
+      height: auto;
+      line-height: 22px;
+      border-top: none;
+    }
+    .box .wodLeft p:nth-child(2) {
+      border-top: none;
+      border-bottom: none; }
+    .box .wodLeft .textBtn.active {
+      background: #fc340e; }
+  .box .wodRight {
+    width: 1096px; }
+    .box .wodRight .rightCommon {
+      width: 100%; }
+      .box .wodRight .rightCommon .analysis {
+        width: 220px;
+        height: 36px; }
+        .box .wodRight .rightCommon .analysis .analysisL {
+          width: 50%;
+          height: 36px;
+          text-align: left;
+          line-height: 36px;
+          font-size: 14px;
+          color: #fff;
+          cursor: pointer; }
+        .box .wodRight .rightCommon .analysis .analysisR {
+          width: 50%;
+          height: 36px;
+          text-align: left;
+          line-height: 36px;
+          font-size: 14px;
+          color: #fff;
+          cursor: pointer; }
+        .box .wodRight .rightCommon .analysis p.active1 {
+          color: #fc340e; }
+      .box .wodRight .rightCommon .table {
+        width: 100%;
+        margin-top: 30px; }
+        .box .wodRight .rightCommon .table .choose {
+          width: 100%;
+          height: 60px; }
+          .box .wodRight .rightCommon .table .choose .one {
+            width: 180px;
+            height: 100%; }
+            .box .wodRight .rightCommon .table .choose .one .tableL {
+              width: 100% !important;
+              background: #444;
+              height: 36px;
+              color: #fff; }
+            .box .wodRight .rightCommon .table .choose .one p {
+              margin: 0 !important;
+              font-size: 14px;
+              color: #666;
+              margin-top: 4px !important; }
+          .box .wodRight .rightCommon .table .choose .two {
+            width: 180px;
+            height: 100%;
+            margin-left: 46px; }
+            .box .wodRight .rightCommon .table .choose .two .tableR {
+              width: 100% !important;
+              background: #444;
+              height: 36px;
+              color: #fff; }
+            .box .wodRight .rightCommon .table .choose .two p {
+              margin: 0 !important;
+              font-size: 14px;
+              color: #666;
+              margin-top: 4px !important; }
+          .box .wodRight .rightCommon .table .choose .bootstrap-select.btn-group:not(.input-group-btn), .box .wodRight .rightCommon .table .choose .bootstrap-select.btn-group[class*=span] {
+            margin-bottom: 0 !important; }
+          .box .wodRight .rightCommon .table .choose .btn-default {
+            background: #444;
+            color: #fff; }
+        .box .wodRight .rightCommon .table #container {
+          width: 800px;
+          height: 600px;
+          margin-top: 20px; }
+      .box .wodRight .rightCommon .action {
+        width: 100%;
+        margin-top: 30px;
+        }
+        .box .wodRight .rightCommon .action .choose {
+          width: 100%;
+          height: 60px; }
+          .box .wodRight .rightCommon .action .choose .one {
+            width: 180px;
+            height: 100%; }
+            .box .wodRight .rightCommon .action .choose .one .tableL {
+              width: 100% !important;
+              background: #444;
+              height: 36px;
+              color: #fff; }
+            .box .wodRight .rightCommon .action .choose .one p {
+              margin: 0 !important;
+              font-size: 14px;
+              color: #666;
+              margin-top: 4px !important; }
+          .box .wodRight .rightCommon .action .choose .two {
+            width: 180px;
+            height: 100%;
+            margin-left: 46px; }
+            .box .wodRight .rightCommon .action .choose .two .tableR {
+              width: 100% !important;
+              background: #444;
+              height: 36px;
+              color: #fff; }
+            .box .wodRight .rightCommon .action .choose .two p {
+              margin: 0 !important;
+              font-size: 14px;
+              color: #666;
+              margin-top: 4px !important; }
+          .box .wodRight .rightCommon .action .choose .bootstrap-select.btn-group:not(.input-group-btn), .box .wodRight .rightCommon .action .choose .bootstrap-select.btn-group[class*=span] {
+            margin-bottom: 0 !important; }
+          .box .wodRight .rightCommon .action .choose .btn-default {
+            background: #444;
+            color: #fff; }
+        .box .wodRight .rightCommon .action .actionTable {
+          width: 100%;
+          margin-top: 20px; }
+          .box .wodRight .rightCommon .action .actionTable .actionTitle {
+            width: 862px;
+            height: 40px;
+            border-bottom: 1px solid #ddd; }
+            .box .wodRight .rightCommon .action .actionTable .actionTitle p {
+              margin: 0;
+              width: 240px;
+              height: 40px;
+              line-height: 40px;
+              font-size: 14px;
+              text-align: left;
+              color: #fff;
+              font-weight: bold; }
+          .box .wodRight .rightCommon .action .actionTable .cont {
+            width: 862px;
+
+            border-bottom: 1px solid #ddd; }
+          .box .wodRight .rightCommon .action .actionTable p {
+            margin: 0;
+            width: 240px;
+            height: 46px;
+            line-height: 46px;
+            font-size: 14px;
+            text-align: left;
+            color: #fff; }
+.pop {
+  width: 543px;
+  height: 500px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -277px;
+  display: none;
+  z-index: 1}
+.pop .close {
+  width: 16px;
+  height: 16px;
+  background: url("../../../images/new-image/training/icon_close1.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 20px;
+  right: 20px; }
+.pop .pop-title {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px; }
+.pop .pop-title p {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #333; }
+ .pop .history-block {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px; }
+.pop .history-block .history-title {
+  width: 100%;
+  height: 38px; }
+.pop .history-block .history-title p {
+  width: 100px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #fc340e;
+margin: 0;}
+.pop .history-block .history-title span {
+  width: 106px;
+  height: 38px;
+  line-height: 38px;
+  text-align: right;
+  font-size: 14px;
+  color: #666666; }
+ .pop .history-block .table-box {
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+ .pop .history-block .table-box .table-head {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  color: #333;
+  text-align: center;
+  background: #eee; }
+ .pop .history-block .table-box p {
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin:0;}
+ .pop .history-block .table-box .date {
+  width: 110px; }
+ .pop .history-block .table-box .result {
+  width: 158px; }
+ .pop .history-block .table-box .remark {
+  width: 216px; }
+ .pop .history-block .table-box ul {
+  width: 100%;
+  height: auto; }
+ .pop .history-block .table-box ul li {
+  width: 100%;
+  height: 30px; }
+ .pop .history-block .table-box ul li p {
+  line-height: 30px; }
+ .pop .history-block .page-box {
+  width: 100%;
+  height: auto;
+  text-align: center; }
+ .pop .history-block .page-box .page {
+  display: initial;
+  height: 20px; }
+.pop .history-block .page-box .page li {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #666;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer; }
+ .pop .history-block .page-box .page .active {
+  background: #eee; }
+ .pop .two {
+  width: 100%;
+  height: auto; }
+ .pop .two .two-title {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #fc340e; }
+ .pop .two .person-table {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+.pop .two .person-table .person-data {
+  width: 33.3%;
+  height: auto; }
+.pop .two .person-table .person-data p {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+ .pop .two .person-table .person-data .person-key {
+  background: #eee; }
+ .pop .two .percent-table {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+.pop .two .percent-table ul {
+  width: 100%;
+  height: auto; }
+ .pop .two .percent-table ul li {
+  float: left;
+  width: 33.3%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+.order .weight-pop {
+  height: 520px;
+  margin-top: -300px; }
+/*# sourceMappingURL=analysis.css.map */
+.btn-default,.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #444;
+}
+

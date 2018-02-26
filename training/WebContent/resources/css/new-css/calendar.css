@@ -1,0 +1,217 @@
+.demo-box {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+/*******å•ç‹¬ç»„ä»¶æ ·å¼********/
+.calendar-box * {
+    box-sizing: border-box;
+}
+
+.ht-rili-head {
+    width: 1030px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ht-rili-querybox {
+    overflow: hidden;
+}
+
+.ht-rili-title {
+    padding: 10px;
+    display: inline-block;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.ht-rili-datebox {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.ht-rili-date {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+}
+
+.ht-rili-leftarr {
+    display: inline-block;
+    width: 25px;
+    height: 19px;
+    background-size: contain;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.ht-rili-rightarr {
+    display: inline-block;
+    width: 25px;
+    height: 19px;
+    background-size: contain;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.ht-rili-th {
+    width: 146px;
+    float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    /*background: #E66B14;*/
+    color: #000;
+}
+
+.ht-rili-td {
+    width: 14.10%;
+    float: left;
+    height: 330px;
+    padding: 9px;
+    background: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 1px;
+    font-size: 12px;
+    color: #333;
+    overflow-y: auto;
+}
+
+.ht-rili-body {
+    width: 1030px;
+    height: 1320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ht-rili-day {
+    font-family: Arial;
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+}
+
+.ht-rili-con {
+    font-family: Arial;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    color: #000;
+}
+
+.ht-rili-td-disabled {
+    color: #BFC4CA;
+}
+
+.ht-rili-td-active {
+    border-radius: 4px;
+    background: #80B3E8;
+}
+
+.today {
+    background: #eee;
+}
+
+.mini-title {
+    width: 100%;
+    min-height: 16px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.mini-title span {
+    display: block;
+    min-height: 16px;
+    line-height: 18px;
+    margin-left: 4px;
+    text-indent: 18px;
+}
+
+.one-block {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.one-block i {
+    width: 12px;
+    height: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left:0;
+}
+
+.warm-up-circle {
+    background: #000000;
+}
+.gym-circle {
+    background: #6493CF;
+}
+.weight-circle {
+    background:#1C97B4;
+}
+.met-circle {
+    background:#624F99;
+}
+.popu-circle {
+    background:#00FF7F;
+}
+.red-circle {
+    background: #f54337;
+}
+.red-circle {
+    background: #f54337;
+}
+.blue-circle{
+    background: #2196f3;
+}
+.yellow-circle{
+    background: #fec107;
+}
+.one-block p{
+    width:100%;
+    height:auto;
+    line-height: 16px;
+    font-size:12px;
+    color: #000;
+    font-weight: bold;
+    text-indent: 20px;
+    word-break: break-all;
+}
+.small-block{
+    width:100%;
+    height:auto;
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.small-block p{
+    width:100%;
+    height:auto;
+    line-height:16px;
+    font-style: italic;
+    margin-left: 11px;
+}
+.plus{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 120px auto;
+}

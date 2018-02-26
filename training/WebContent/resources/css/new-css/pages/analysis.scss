@@ -1,0 +1,208 @@
+html,body{
+  background: #000;
+  width:100%;
+  padding-bottom:40px;
+}
+.box{
+  width:1440px;
+  margin:52px auto 0;
+  .wodLeft{
+    width:204px;
+    height:304px;
+    background: #000;
+    margin-left:80px;
+    margin-top:80px;
+      p{
+        width:167px;
+        height:36px;
+        font-size:14px;
+        text-align: center;
+        color: #fff;
+        margin-top:0 !important;
+        margin-bottom:0 !important;
+        border: 1px solid #666;
+        line-height:36px;
+        cursor: pointer;
+      }
+      p:nth-child(4){
+        height:auto;
+        line-height:22px;
+        border-top: none;
+        border-bottom: none;
+      }
+    p:nth-child(2){
+      border-top: none;
+      border-bottom: none;
+    }
+      .textBtn.active{
+        background: #fc340e;
+      }
+    }
+  .wodRight{
+    width:1096px;
+    .rightCommon{
+      width:100%;
+      .analysis{
+        width:220px;
+        height:36px;
+        .analysisL{
+          width:50%;
+          height:36px;
+          text-align: left;
+          line-height:36px;
+          font-size:14px;
+          color: #fff;
+          cursor: pointer;
+        }
+        .analysisR{
+          width:50%;
+          height:36px;
+          text-align: left;
+          line-height:36px;
+          font-size:14px;
+          color: #fff;
+          cursor: pointer;
+        }
+        p.active1{
+          color: #fc340e;
+        }
+      }
+      .table{
+        width:100%;
+        margin-top:30px;
+        .choose{
+          width:100%;
+          height:60px;
+          .one{
+            width:180px;
+            height:100%;
+            .tableL{
+              width:100% !important;
+              background: #444;
+              height:36px;
+              color: #fff;
+            }
+            p{
+              margin:0 !important;
+              font-size: 14px;
+              color: #666;
+              margin-top: 4px !important;
+            }
+          }
+          .two{
+            width:180px;
+            height:100%;
+            margin-left:46px;
+            .tableR{
+              width:100% !important;
+              background: #444;
+              height:36px;
+              color: #fff;
+            }
+            p{
+              margin:0 !important;
+              font-size: 14px;
+              color: #666;
+              margin-top: 4px !important;
+            }
+          }
+          .bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*=span]{
+            margin-bottom:0 !important;
+          }
+          .btn-default{
+            background: #444;
+            color: #fff;
+          }
+        }
+        #container{
+          width:800px;
+          height: 600px;
+          margin-top:20px;
+        }
+      }
+      .action{
+        width:100%;
+        margin-top:30px;
+        display: none;
+        .choose{
+          width:100%;
+          height:60px;
+          .one{
+            width:180px;
+            height:100%;
+            .tableL{
+              width:100% !important;
+              background: #444;
+              height:36px;
+              color: #fff;
+            }
+            p{
+              margin:0 !important;
+              font-size: 14px;
+              color: #666;
+              margin-top: 4px !important;
+            }
+          }
+          .two{
+            width:180px;
+            height:100%;
+            margin-left:46px;
+            .tableR{
+              width:100% !important;
+              background: #444;
+              height:36px;
+              color: #fff;
+            }
+            p{
+              margin:0 !important;
+              font-size: 14px;
+              color: #666;
+              margin-top: 4px !important;
+            }
+          }
+          .bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*=span]{
+            margin-bottom:0 !important;
+          }
+          .btn-default{
+            background: #444;
+            color: #fff;
+          }
+        }
+        .actionTable{
+          width:100%;
+          margin-top:20px;
+          .actionTitle{
+            width:862px;
+            height:40px;
+            border-bottom:1px solid #ddd;
+            p{
+              margin:0;
+              width:240px;
+              height:40px;
+              line-height:40px;
+              font-size: 14px;
+              text-align: left;
+              color: #fff;
+              font-weight:bold;
+            }
+          }
+          .cont{
+            width:862px;
+            height:46px;
+            border-bottom:1px solid #ddd;
+          }
+          p{
+            margin:0;
+            width:240px;
+            height:46px;
+            line-height:46px;
+            font-size: 14px;
+            text-align: left;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+  }
+}

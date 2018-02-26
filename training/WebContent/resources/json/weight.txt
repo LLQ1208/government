@@ -1,0 +1,87 @@
+﻿{
+    "Weightlifting": {
+        "historySource": [
+            {
+                "recordSource": "1x2 @ 100kg",
+                "remark": "备注",
+                "time": "2017/08/02"
+            },
+            {
+                "recordSource": "1x5 @ 80kg",
+                "remark": "备注",
+                "time": "2017/07/02"
+            },
+            {
+                "recordSource": "1x5 @ 80kg",
+                "remark": "备注",
+                "time": "2017/07/02"
+            },
+            {
+                "recordSource": "1x5 @ 80kg",
+                "remark": "备注",
+                "time": "2017/07/02"
+            }
+        ],
+        "historySourceCount": 100,
+        "linechart": {
+            "series": [
+                {
+                    "data": [
+                        7,
+                        6.9,
+                        9.5
+                    ],
+                    "name": "估算"
+                },
+                {
+                    "data": [
+                        3.9,
+                        4.2,
+                        5.7
+                    ],
+                    "name": "实际"
+                }
+            ],
+            "xAxis": [
+                "May`2017",
+                "Jun`2017",
+                "Aug`2017"
+            ],
+            "yAxis": [
+                {
+                    "index": 0,
+                    "title": {
+                        "text": "kg"
+                    }
+                }
+            ]
+        },
+        "maxSource": "1次最大:108KG(估算)",
+        "name": "push jerk",
+        "percentage": [
+            "100",
+            "94",
+            "89",
+            "80",
+            "79",
+            "74",
+            "68",
+            "63",
+            "58"
+        ],
+        "personalData": [
+            {
+                "rpsSource": "105Kg",
+                "rpsTitle": "1x2"
+            },
+            {
+                "rpsSource": "97Kg",
+                "rpsTitle": "1x4"
+            },
+            {
+                "rpsSource": "70Kg",
+                "rpsTitle": "1x12"
+            }
+        ]
+    }
+}
